@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { CarouselModule, NavbarModule, } from 'angular-bootstrap-md';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './main/header/header.component';
@@ -15,8 +14,7 @@ import { FooterComponent } from './main/footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CarouselModule.forRoot(),
-    NavbarModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

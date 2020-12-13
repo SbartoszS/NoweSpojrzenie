@@ -1,0 +1,55 @@
+@import 'variables';
+.infobar
+{
+    background-color: $color-main;
+    color: $color-second;
+    font-size: 14px;
+}
+
+.check-us{
+    display: none;
+    position: relative;
+}
+
+.infobar .col-12
+{
+    text-align: center;
+}
+
+.infobar .icon
+{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+@include media(md)
+{
+    .infobar .col-12
+    {
+        text-align: left;
+    }
+
+    .infobar .col-12:nth-last-of-type(1)
+    {
+        text-align: right;
+    }
+
+    .check-us
+    {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 20px;
+        &::after {
+            display: block;
+            content: "";
+            position: absolute;
+            right: -12px;
+            top: 0;
+            bottom: 0;
+            height: 100%;
+            width: 2px;
+            box-shadow: 0px 0px 5px 1px #ffffff;
+            background: #ffffff;
+          }
+    }
+}

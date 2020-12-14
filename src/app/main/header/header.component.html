@@ -1,14 +1,14 @@
-<header>
+<header (scroll)="onScrollNav($event)">
     <div class="infobar">
         <div class="container-fluid container-lg py-2 py-md-0">
             <div class="row align-items-center justify-content-sm-start">
-                <div class="col-12 col-sm-auto col-lg-auto py-2">
+                <div class="col-12 col-sm-auto col-lg-auto py-2 text-sm-left">
                     <img class="icon" src="./assets/icons/email_i.png" alt="Email" />paulinarusak99@gmail.com
                 </div>
-                <div class="col-12 col-sm-auto col-lg-auto col-lg-auto mr-sm-auto p-0">
+                <div class="col-12 col-sm-auto col-lg-auto col-lg-auto mr-sm-auto p-0 text-sm-left">
                     <img class="icon" src="./assets/icons/phone_i.png" alt="Phone" />+48 797 723 557
                 </div>
-                <div class="col-12 col-sm-auto col-lg-6 py-1">
+                <div class="col-12 col-sm-auto col-lg-6 py-1 text-sm-right">
                     <span class="check-us">Obserwuj nas</span>
                     <a class="icon-link" href="https://www.facebook.com/" target="_blank">
                         <img class="icon icon--big" src="./assets/icons/facebook_i.png" alt="Facebook" />
@@ -21,3 +21,51 @@
         </div>
     </div>
 </header>
+
+<nav class="navbar navbar-expand-lg justify-content-between border-bottom sticky-top py-2">
+    <div class="container-fluid container-lg">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/img/logo.png" alt="logo" class="d-inline-block align-middle logo-nav mr-2" /></a>
+        <button class="navbar-toggler open-button p-0" type="button" (click)="openNav($event)">
+            <span><img class="icon--big" src="./assets/icons/bars_i.png" alt="menu open"></span>
+        </button>
+
+        <div class="collapse navbar-collapse d-flex flex-column flex-lg-row justify-content-lg-end mobile-menu scrollable-menu p-3 p-lg-0"
+            id="navbarSupportedContent" role="menu">
+            <a class="navbar-brand mobile-logo" href="#">
+                <img src="./assets/img/logo.png" alt="logo" class="d-inline-block align-middle logo-nav" /></a>
+            <ul class="navbar-nav align-self-stretch">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">O nas <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Oferta
+                    </a>
+                    <div class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Pielęgnacja rzęs</a>
+                        <a class="dropdown-item" href="#">Pielęgnacja brwi</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/szkolenia']">Szkolenia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/cennik']">Cennik</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/galeria']">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/kontakt']">Kontakt</a>
+                </li>
+            </ul>
+            <button class="navbar-toggler close-button" type="button" (click)="openNav($event)">
+                <span><img class="icon--big" src="./assets/icons/close_i.png" alt="Menu close button"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse overlay">
+        </div>
+    </div>
+</nav>

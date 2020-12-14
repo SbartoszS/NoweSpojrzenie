@@ -4,12 +4,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './main/header/header.component';
 import { FooterComponent } from './main/footer/footer.component';
+import { OpinionComponent } from './home/opinion/opinion.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    OpinionComponent
   ],
   imports: [
     BrowserModule,

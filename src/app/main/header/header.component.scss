@@ -195,13 +195,14 @@
       {
         position: absolute;
         content: '';
-        height: 2px;
+        height: 1px;
         bottom: 4px; 
         margin: 0 auto;
         left: 0;
         right: 0;
         width: 0%;
-        background: green;
+        background: $color-main;
+        filter: blur(1px);
         transition: 0.3s ease;
       }
       &:hover

@@ -10,8 +10,6 @@ declare var $: any;
 })
 export class HeaderComponent {
 
-  constructor(@Inject(DOCUMENT) private document: Document) { }
-
   windowChangeSize: number = 992
   openNav(event: any) {
     if (window.innerWidth > this.windowChangeSize) { }
@@ -39,7 +37,6 @@ export class HeaderComponent {
       $('.logo-nav').css('width', '100px');
       if (window.innerWidth > 992) { $('.logo-name').show(); }
     }
-
   }
 }
 

@@ -1,8 +1,46 @@
+@import 'variables';
+
+.about
+{
+    text-align: center;
+    margin: 50px 0;
+
+    &__title
+    {
+        position: relative;
+        font-family: 'Dancing Script', cursive;
+        font-size: 50px;
+        margin-bottom: 60px;
+        &::after
+        {
+            position: absolute;
+            content: '';
+            height: 1px;
+            bottom: -12px; 
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            width: 100px;
+            background: $color-main;
+            filter: blur(1px);
+        }
+    }
+
+    &__description
+    {
+        padding: 0 20px;
+    }
+}
+
 .frame
 {
     position: relative;
-    width: 600px;
-    height: 600px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    max-width: 500px;
 
     &__background
     {
@@ -10,6 +48,7 @@
         top: 0;
         left: 0;
         width: 100%;
+        height: auto;
         z-index: 98;
     }
 
@@ -19,7 +58,8 @@
         top: 0;
         left: 0;
         width: 50%;
-        z-index: 98;
+        height: 50%;
+        z-index: 97;
     }
 
 }

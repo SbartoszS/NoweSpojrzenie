@@ -51,6 +51,17 @@ a
     box-shadow: 0px 0px 15px 2px #e5e5e5;
 }
 
+@keyframes ContentAnimate {
+    from {
+        transform: scale(0.6);
+        opacity: 0
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1
+    }
+}
 
 
 @keyframes pulse {

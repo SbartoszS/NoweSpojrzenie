@@ -33,6 +33,7 @@
 
 .opinion
 {
+    opacity: 0;
     margin: 10px;
     padding: 20px;
     background-color: rgba(0,0,0, 80%);
@@ -40,6 +41,7 @@
     border-radius: 10px;
     font-size: 14px;
     transition: 0.3s ease;
+
     &:hover
     {
         background-color: rgba(0,0,0, 100%);
@@ -87,4 +89,11 @@
     {
         text-align: left;
     }
+}
+
+.opinion-animate
+{
+    display: block;
+    animation: ContentAnimate 2s;
+    animation-fill-mode: both;
 }

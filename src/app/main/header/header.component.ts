@@ -2,7 +2,7 @@ import { Component, HostListener, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 
 declare var $: any;
-let prevScrollpos: number = window.pageYOffset;
+
 @Component({
   selector: 'ns-header',
   templateUrl: './header.component.html',

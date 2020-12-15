@@ -6,6 +6,7 @@ import { HeaderComponent } from './main/header/header.component';
 import { FooterComponent } from './main/footer/footer.component';
 import { OpinionComponent } from './home/opinion/opinion.component';
 import { CarouselComponent } from './home/carousel/carousel.component';
+import { AboutUsComponent } from './home/about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { CarouselComponent } from './home/carousel/carousel.component';
     HeaderComponent,
     FooterComponent,
     OpinionComponent,
-    CarouselComponent
+    CarouselComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,

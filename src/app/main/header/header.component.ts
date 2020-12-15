@@ -25,21 +25,21 @@ export class HeaderComponent {
 
   @HostListener('window:scroll', ['$event'])
   onScrollNav($event) {
+    console.log("test");
     let headerHeight = $('header').innerHeight();
     let nav = $('.navbar').innerHeight();
 
-    $(window).scroll(function () {
-      if ($(this).scrollTop() > headerHeight + (nav - headerHeight)) {
-        $('.navbar').addClass('bottom-shadow');
-        $('.logo-nav').css({ "width": "60px", 'transition': '0.2s ease' });
-        $('.logo-name').hide();
-      }
-      else {
-        $('.navbar').removeClass('bottom-shadow');
-        $('.logo-nav').css('width', '100px');
-        $('.logo-name').show();
-      }
-    });
+    if ($(window).scrollTop() > headerHeight + (nav - headerHeight)) {
+      $('.navbar').addClass('bottom-shadow');
+      $('.logo-nav').css({ "width": "60px", 'transition': '0.2s ease' });
+      if (window.innerWidth > 992) { $('.logo-name').hide(); }
+    }
+    else {
+      $('.navbar').removeClass('bottom-shadow');
+      $('.logo-nav').css('width', '100px');
+      if (window.innerWidth > 992) { $('.logo-name').show(); }
+    }
+
   }
 }
 

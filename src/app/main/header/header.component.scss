@@ -61,7 +61,8 @@
 
 .nav-link
 {
-  position: relative; 
+  position: relative;
+  padding: 0.8rem 1rem;
 }
 .dropdown-menu
 {
@@ -70,8 +71,13 @@
 .dropdown-item
 {
     font-weight: 300;
-    padding: 0.5rem 1.5rem;
+    padding: 1rem 1.5rem;
     border-bottom: 1px solid #c8c8c8;
+    transition: 0.3s ease;
+    &:hover{
+      background-color: $color-main;
+      color: $color-second;
+    }
 }
 .bottom-shadow
 {
@@ -144,7 +150,7 @@
           position: absolute;
           top: -4px;
           left: -16px;
-          height: 46px;
+          height: 54px;
           width: 10px;
           background-color: #124644;
         }

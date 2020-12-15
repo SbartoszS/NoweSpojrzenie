@@ -43,6 +43,22 @@
     width: 100px;
 }
 
+.logo-name
+{
+    display: none;
+    color: $color-main;
+}
+.logo-title
+{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.logo-subtitle
+{
+    font-size: 14px;
+}
+
 .nav-link
 {
   position: relative; 
@@ -180,6 +196,11 @@
     .mobile-logo
     {
       display: none;
+    }
+
+    .logo-name
+    {
+      display: block;
     }
   
     .overlay

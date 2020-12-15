@@ -1,0 +1,93 @@
+@import 'variables';
+
+.about
+{
+    text-align: center;
+    margin: 50px 0;
+
+    &__title
+    {
+        position: relative;
+        font-family: 'Dancing Script', cursive;
+        font-size: 50px;
+        margin-bottom: 60px;
+        &::after
+        {
+            position: absolute;
+            content: '';
+            height: 1px;
+            bottom: -12px; 
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            width: 100px;
+            background: $color-main;
+            filter: blur(1px);
+        }
+    }
+
+    &__description
+    {
+        padding: 0 20px;
+    }
+}
+
+.frame
+{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: rebeccapurple;
+    overflow: hidden;
+    box-shadow: 0px 0px 6px 1px #1246442b;
+    border-radius: 10px;
+
+    &::after
+    {
+        display: block;
+        content: '';
+        position: absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url('/../assets/img/frame.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 99;
+    }
+
+    &::before
+    {
+        display: block;
+        content: '';
+        position: absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url('/../assets/img/room.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 99;
+    }
+}
+
+
+@include media(sm)
+{
+    .frame
+    {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@include media(xl)
+{
+    .frame
+    {
+        width: 600px;
+        height: 600px;
+    }
+}

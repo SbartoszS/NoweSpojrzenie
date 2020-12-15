@@ -34,7 +34,8 @@
 .opinion
 {
     opacity: 0;
-    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 20px;
     background-color: rgba(0,0,0, 80%);
     color: $color-second;
@@ -96,4 +97,12 @@
     display: block;
     animation: ContentAnimate 1.5s;
     animation-fill-mode: both;
+}
+
+@include media(lg)
+{
+    .opinion
+    {
+        margin: 20px;
+    }
 }

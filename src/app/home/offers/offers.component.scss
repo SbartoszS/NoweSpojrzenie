@@ -26,8 +26,6 @@
 
 .short-container {
   text-align: left;
-  padding-left: 30px;
-
   .short-container__title-img {
     display: inline-flex;
     flex-direction: column;
@@ -36,10 +34,16 @@
   }
 }
 
-.short-container .second {
+.second {
   padding-left: 30px;
 }
+.main-ib:hover .icon-size{
+  transform: scale(1.1);
+}
 
+.main-ib:hover .main-ib__title::after {
+  width: 130px;
+}
 .img-container {
   text-align: center;
 }
@@ -54,6 +58,7 @@
 .main-ib {
   text-align: center;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ 
 
   &__border {
     padding: 20px;
@@ -79,7 +84,6 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-
     &::after {
       position: absolute;
       content: '';
@@ -91,6 +95,7 @@
       width: 100px;
       background: $color-main;
       filter: blur(1px);
+      transition: 0.3s ease;
     }
   }
 
@@ -105,6 +110,7 @@
 .icon-size {
   height: 20px;
   width: 55px;
+  transition: 0.3s ease;
 }
 
 .content-list {
@@ -114,6 +120,8 @@
 
   &__display {
     list-style: none;
+    text-align: left;
+    transition: 0.3s ease;
   }
 }
 

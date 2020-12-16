@@ -1,0 +1,20 @@
+.gallery
+{
+    margin: 50px 0;
+
+    &__container{
+        position: relative;
+        padding: 20px;
+        overflow: hidden;
+    }
+
+    &__img
+    {
+        transition: 0.3s linear;
+       
+        &:hover
+        {
+            transform: scale(1.1);
+        }
+    }
+}

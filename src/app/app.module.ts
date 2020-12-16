@@ -7,6 +7,8 @@ import { FooterComponent } from './main/footer/footer.component';
 import { OpinionComponent } from './home/opinion/opinion.component';
 import { CarouselComponent } from './home/carousel/carousel.component';
 import { AboutUsComponent } from './home/about-us/about-us.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -15,12 +17,13 @@ import { AboutUsComponent } from './home/about-us/about-us.component';
     FooterComponent,
     OpinionComponent,
     CarouselComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    GalleryComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

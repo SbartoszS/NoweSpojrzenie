@@ -17,7 +17,6 @@ export class OpinionComponent implements OnInit {
       let pos1 = $('.opinion').offset().top + $('.opinion').outerHeight() - window.innerHeight;
       if (pos >= pos1) {
         $(".opinion").addClass('opinion-animate');
-        console.log('test czy dziala');
       }
     });
   }

@@ -8,8 +8,8 @@ import { OpinionComponent } from './home/opinion/opinion.component';
 import { CarouselComponent } from './home/carousel/carousel.component';
 import { AboutUsComponent } from './home/about-us/about-us.component';
 import { OffersComponent } from './home/offers/offers.component';
-import { GalleryComponent } from './gallery/gallery.component';
 import { HomeComponent } from './home/home.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -19,9 +19,9 @@ import { HomeComponent } from './home/home.component';
     OpinionComponent,
     CarouselComponent,
     AboutUsComponent,
-    OffersComponent
-    GalleryComponent,
-    HomeComponent
+    OffersComponent,
+    HomeComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,

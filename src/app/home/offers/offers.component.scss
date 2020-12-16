@@ -1,0 +1,63 @@
+@import "variables";
+
+.display-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-ib {
+  text-align: center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  &__border {
+    padding: 20px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    color: white;
+    background-image: linear-gradient(to right, rgba(18, 70, 68, 1), rgba(18, 70, 68, .55), rgba(18, 70, 68, 1));
+  }
+
+  &__content {
+    min-height: 300px;
+  }
+
+  &__title {
+    font-size: 20px;
+    padding: 15px 10px 0;
+  }
+
+  &__img {
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+  }
+
+  &__title-img {
+    padding-top: 20px;
+  }
+
+}
+
+
+
+
+
+.content-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .content-list__display {
+    list-style: none;
+  }
+}
+
+
+
+
+.main-btn-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -7,7 +7,6 @@
     position: relative;
     margin: 60px auto;
     text-align: center;
-
     &::after {
       position: absolute;
       content: '';
@@ -38,12 +37,13 @@
   padding-left: 30px;
 }
 .main-ib:hover .icon-size{
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
 
 .main-ib:hover .main-ib__title::after {
-  width: 130px;
+  width: 120px;
 }
+
 .img-container {
   text-align: center;
 }
@@ -73,12 +73,13 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    background-color: $color-second;
   }
 
   &__title {
     font-size: 20px;
     padding-top: 15px;
-    font-weight: bold;
+    font-weight: 400;
     position: relative;
     margin-bottom: 30px;
     margin-left: auto;
@@ -92,7 +93,7 @@
       margin: 0 auto;
       left: 0;
       right: 0;
-      width: 100px;
+      width: 60px;
       background: $color-main;
       filter: blur(1px);
       transition: 0.3s ease;

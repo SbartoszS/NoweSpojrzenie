@@ -8,6 +8,8 @@ import { OpinionComponent } from './home/opinion/opinion.component';
 import { CarouselComponent } from './home/carousel/carousel.component';
 import { AboutUsComponent } from './home/about-us/about-us.component';
 import { OffersComponent } from './home/offers/offers.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +20,12 @@ import { OffersComponent } from './home/offers/offers.component';
     CarouselComponent,
     AboutUsComponent,
     OffersComponent
+    GalleryComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

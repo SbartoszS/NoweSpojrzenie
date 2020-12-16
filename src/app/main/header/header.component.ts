@@ -23,7 +23,6 @@ export class HeaderComponent {
 
   @HostListener('window:scroll', ['$event'])
   onScrollNav($event) {
-    console.log("test");
     let headerHeight = $('header').innerHeight();
     let nav = $('.navbar').innerHeight();
 

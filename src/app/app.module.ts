@@ -12,6 +12,7 @@ import { OffersComponent } from './home/offers/offers.component';
 import { HomeComponent } from './home/home.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { GalleryService } from '../shared';
+import { BeautyComponent } from './home/beauty/beauty.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { GalleryService } from '../shared';
     AboutUsComponent,
     OffersComponent,
     HomeComponent,
-    GalleryComponent
+    GalleryComponent,
+    BeautyComponent
   ],
   imports: [
     BrowserModule,

@@ -1,23 +1,30 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { GalleryService, Gallery } from '../../shared';
 
 declare var $: any;
+declare var lightbox: any;
+
 @Component({
   selector: 'ns-gallery',
   templateUrl: './gallery.component.html',
-  styleUrls: ['./gallery.component.scss']
+  styleUrls: ['./gallery.component.scss'],
 })
 export class GalleryComponent implements OnInit {
+  images$: Observable<Gallery[]>;
 
-  constructor() { }
+  constructor(private galleryService: GalleryService) { }
 
   ngOnInit(): void {
-    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
-      $(this).ekkoLightbox({
-        loadingMessage: "Loading…",
-        showArrows: true,
-        leftArrow: "<<<",
-        rightArrow: ">>>"
-      });
+    lightbox.option({
+      disableScrolling: true,
+      wrapAround: true,
+      showImageNumberLabel: false
+    });
+
+    this.images$ = this.galleryService.getAll();
+    this.galleryService.getAll().subscribe((resp: any) => {
+      console.log(resp);
     });
   }
 }

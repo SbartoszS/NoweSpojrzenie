@@ -1,20 +1,83 @@
+@import 'variables';
 .gallery
 {
-    margin: 50px 0;
-
-    &__container{
+    margin: 100px 0;
+    &__leaf
+    {
         position: relative;
-        padding: 20px;
-        overflow: hidden;
+        display: inline-block;
+        margin-bottom: 150px;
+        text-align: center;
+        color: $color-main;
+
+        &::after, &::before
+        {
+            display: block;
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 50px;
+            background-image: url('/../assets/icons/small-leaf_i.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            filter: blur(1px);
+        }
+
+        &::after
+        {
+            top: -50%;
+            left: -35%;
+            transform: rotate(-50deg);
+
+        }
+        &::before
+        {
+            bottom: -50%;
+            right: -35%;
+            transform: rotate(125deg);
+        }
+
     }
 
+    &__title
+    {
+        text-align: center;
+        margin: 0;
+
+        &::after, &::before{
+            position: absolute;
+            content: '';
+            height: 1px;
+            width: 70%;
+            background: $color-main;
+            filter: blur(1px);
+        }
+
+        &::after
+        {
+            top: -20px;  
+            right: 0;     
+        }
+        &::before
+        {
+           bottom: -20px; 
+           left: 0;
+             
+        }
+    }
     &__img
     {
         transition: 0.3s linear;
        
         &:hover
         {
-            transform: scale(1.1);
+            transform: scale(1.2);
         }
     }
+}
+
+.gallery .card 
+{
+    border: 1px solid $color-main;
+    overflow: hidden;
 }

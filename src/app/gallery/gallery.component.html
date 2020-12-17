@@ -1,32 +1,15 @@
 <section class="gallery">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-
-                <a href="https://unsplash.it/1200/768.jpg?image=251" data-lightbox="image-1" data-title="My caption"
-                    class="col-sm-4 gallery__container">
-                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid gallery__img">
-                </a>
-                <a href="https://unsplash.it/1200/768.jpg?image=251" data-lightbox="image-1" data-title="My caption"
-                    class="col-sm-4 gallery__container">
-                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid gallery__img">
-                </a>
-                <a href="https://unsplash.it/1200/768.jpg?image=251" data-lightbox="image-1" data-title="My caption"
-                    class="col-sm-4 gallery__container">
-                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid gallery__img">
-                </a>
-                <a href="https://unsplash.it/1200/768.jpg?image=251" data-lightbox="image-1" data-title="My caption"
-                    class="col-sm-4 gallery__container">
-                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid gallery__img">
-                </a>
-                <a href="https://unsplash.it/1200/768.jpg?image=251" data-lightbox="image-1" data-title="My caption"
-                    class="col-sm-4 gallery__container">
-                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid gallery__img">
-                </a>
-                <a href="https://unsplash.it/1200/768.jpg?image=251" data-lightbox="image-1" data-title="My caption"
-                    class="col-sm-4 gallery__container">
-                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid gallery__img">
-                </a>
+        <div class="row justify-content-center">
+            <div class="gallery__leaf">
+                <h1 class="gallery__title">Galeria</h1>
+            </div>
+            <div class="card-columns">
+                <div class="card" *ngFor="let image of images$ | async">
+                    <a [attr.href]="image.imageUrl" data-lightbox="image-1" class="img-fluid">
+                        <img [attr.src]="image.imageUrl" class="card-img-top gallery__img">
+                    </a>
+                </div>
             </div>
         </div>
     </div>

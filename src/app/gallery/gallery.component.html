@@ -1,1 +1,16 @@
-<p>gallery works!</p>
+<section class="gallery">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="gallery__leaf">
+                <h1 class="gallery__title">Galeria</h1>
+            </div>
+            <div class="card-columns">
+                <div class="card" *ngFor="let image of images$ | async">
+                    <a [attr.href]="image.imageUrl" data-lightbox="image-1" class="img-fluid">
+                        <img [attr.src]="image.imageUrl" class="card-img-top gallery__img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -12,11 +12,11 @@ export class OpinionComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    $(window).on('scroll', function () {
-      let pos = $(window).scrollTop();
-      let pos1 = $('.opinion').offset().top + $('.opinion').outerHeight() - window.innerHeight;
+    $(window).on('scroll', () => {
+      const pos = $(window).scrollTop();
+      const pos1 = $('.opinion').offset().top + $('.opinion').outerHeight() - window.innerHeight;
       if (pos >= pos1) {
-        $(".opinion").addClass('opinion-animate');
+        $('.opinion').addClass('opinion-animate');
       }
     });
   }

@@ -1,13 +1,8 @@
 @import "variables";
 
-.imgs{
+.document-img{
   height: 300px;
   width: 200px;
-}
-
-.imga{
-  height: 50px;
-  transition: 0.3s ease;
 }
 
 .glide__arrow{
@@ -15,6 +10,7 @@
   padding: 0;
   border-radius: 50%;
   top: 110%;
+
 }
 
 
@@ -27,8 +23,5 @@
   }
   .glide__arrow--left{
     left: -40px;
-  }
-  .glide__arrow:hover .imga{
-    height: 60px;
   }
 }

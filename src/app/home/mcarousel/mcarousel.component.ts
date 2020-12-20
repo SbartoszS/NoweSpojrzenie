@@ -11,14 +11,11 @@ export class McarouselComponent implements OnInit {
 
   ngOnInit(): void {
 
- 
-
-
     const config = {
       type: 'carousel',
       perView: '3',
-      gap:'15',
-      animationDuration:"800",
+      gap: '15',
+      animationDuration: "700",
       breakpoints: {
         576: {
           perView: 1
@@ -28,11 +25,9 @@ export class McarouselComponent implements OnInit {
         },
       }
     }
-    
+
     new Glide('.glide', config).mount()
 
   }
-
-
 
 }

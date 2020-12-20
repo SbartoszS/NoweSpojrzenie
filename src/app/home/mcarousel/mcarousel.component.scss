@@ -1,0 +1,34 @@
+@import "variables";
+
+.imgs{
+  height: 300px;
+  width: 200px;
+}
+
+.imga{
+  height: 50px;
+  transition: 0.3s ease;
+}
+
+.glide__arrow{
+  border: 0;
+  padding: 0;
+  border-radius: 50%;
+  top: 110%;
+}
+
+
+@include media(lg){
+  .glide__arrow{
+    top: 50%;
+  }
+  .glide__arrow--right{
+    right: -40px;
+  }
+  .glide__arrow--left{
+    left: -40px;
+  }
+  .glide__arrow:hover .imga{
+    height: 60px;
+  }
+}

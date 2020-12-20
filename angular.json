@@ -30,7 +30,9 @@
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/lightbox2/dist/css/lightbox.css",
-              "src/styles/styles.scss"
+              "src/styles/styles.scss",
+              "node_modules/@glidejs/glide/dist/css/glide.core.min.css",
+              "node_modules/@glidejs/glide/dist/css/glide.theme.min.css"
             ],
             "stylePreprocessorOptions": {
               "includePaths": [
@@ -41,7 +43,8 @@
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "node_modules/lightbox2/dist/js/lightbox.js"
+              "node_modules/lightbox2/dist/js/lightbox.js",
+              "node_modules/@glidejs/glide/dist/glide.js"
             ]
           },
           "configurations": {

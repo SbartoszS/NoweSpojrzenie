@@ -13,6 +13,8 @@ import { HomeComponent } from './home/home.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { GalleryService } from '../shared';
 import { McarouselComponent } from './home/mcarousel/mcarousel.component';
+import { BeautyComponent } from './home/beauty/beauty.component';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +27,8 @@ import { McarouselComponent } from './home/mcarousel/mcarousel.component';
     OffersComponent,
     HomeComponent,
     GalleryComponent,
-    McarouselComponent
+    McarouselComponent,
+    BeautyComponent
   ],
   imports: [
     BrowserModule,

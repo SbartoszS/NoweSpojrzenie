@@ -1,0 +1,62 @@
+@import 'variables';
+
+.contact {
+  margin-top: 100px;
+}
+
+.container {
+  padding-bottom: 60px;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.main-ib {
+  text-align: center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.main-ib__title {
+  padding: 10px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  color: white;
+  background-image: linear-gradient(to right, rgba(18, 70, 68, 1), rgba(18, 70, 68, .55), rgba(18, 70, 68, 1));
+}
+
+.main-ib__content {
+  padding: 15px 15px;
+  min-height: 220px;
+  font-weight: 600;
+}
+
+.time-description {
+  text-align: left;
+}
+
+.main-btn-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.place-button {
+  background-color: #124644;
+  color: beige;
+  border: 1px solid black;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.map {
+  background-color: $color-main;
+
+  &__iframe {
+    height: 400px;
+    width: 100%;
+  }
+}

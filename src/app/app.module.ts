@@ -14,6 +14,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { GalleryService } from '../shared';
 import { McarouselComponent } from './home/mcarousel/mcarousel.component';
 import { BeautyComponent } from './home/beauty/beauty.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { BeautyComponent } from './home/beauty/beauty.component';
     HomeComponent,
     GalleryComponent,
     McarouselComponent,
-    BeautyComponent
+    BeautyComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

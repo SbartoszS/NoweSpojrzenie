@@ -2,12 +2,14 @@
 
 
 .certificates {
-  margin: 50px 0;
+  margin-top: 20px;
+  margin-bottom: 70px;
 
   &__title {
     position: relative;
-    margin: 60px auto;
+    margin: 10px auto 50px auto;
     text-align: center;
+
     &::after {
       position: absolute;
       content: '';
@@ -24,12 +26,12 @@
 
 }
 
-.document-img{
+.document-img {
   height: 300px;
   width: 200px;
 }
 
-.glide__arrow{
+.glide__arrow {
   border: 0;
   padding: 0;
   border-radius: 50%;
@@ -37,14 +39,16 @@
 
 }
 
-@include media(md){
-  .glide__arrow{
+@include media(md) {
+  .glide__arrow {
     top: 50%;
   }
-  .glide__arrow--right{
+
+  .glide__arrow--right {
     right: -40px;
   }
-  .glide__arrow--left{
+
+  .glide__arrow--left {
     left: -40px;
   }
 }

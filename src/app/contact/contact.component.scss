@@ -52,11 +52,9 @@
   cursor: pointer;
 }
 
-.map {
-  background-color: $color-main;
 
-  &__iframe {
-    height: 400px;
-    width: 100%;
-  }
+.map__iframe {
+  height: 400px;
+  width: 100%;
+  display: block;
 }

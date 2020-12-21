@@ -1,5 +1,29 @@
 @import "variables";
 
+
+.certificates {
+  margin: 50px 0;
+
+  &__title {
+    position: relative;
+    margin: 60px auto;
+    text-align: center;
+    &::after {
+      position: absolute;
+      content: '';
+      height: 1px;
+      bottom: -12px;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      width: 100px;
+      background: $color-main;
+      filter: blur(1px);
+    }
+  }
+
+}
+
 .document-img{
   height: 300px;
   width: 200px;
@@ -13,8 +37,7 @@
 
 }
 
-
-@include media(lg){
+@include media(md){
   .glide__arrow{
     top: 50%;
   }

@@ -2,12 +2,13 @@
 
 
 .certificates {
-  margin: 50px 0;
+  margin: 50px 0 200px 0;
 
   &__title {
     position: relative;
     margin: 60px auto;
     text-align: center;
+
     &::after {
       position: absolute;
       content: '';
@@ -24,12 +25,13 @@
 
 }
 
-.document-img{
+.document-img {
   height: 300px;
-  width: 200px;
+  width: 250px;
+  border: 1px solid $color-main;
 }
 
-.glide__arrow{
+.glide__arrow {
   border: 0;
   padding: 0;
   border-radius: 50%;
@@ -37,14 +39,26 @@
 
 }
 
-@include media(md){
-  .glide__arrow{
+@include media(md) {
+  .glide__arrow {
     top: 50%;
   }
-  .glide__arrow--right{
+
+  .glide__arrow--right {
     right: -40px;
   }
-  .glide__arrow--left{
+
+  .glide__arrow--left {
     left: -40px;
+  }
+
+  .certificates {
+    margin-bottom: 100px;
+  }
+}
+
+@include media(sm) {
+  .document-img {
+    width: 245px;
   }
 }

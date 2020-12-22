@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { GalleryService, Gallery } from '../../shared';
 
-declare var $: any;
 declare var lightbox: any;
 
 @Component({

@@ -54,16 +54,18 @@
   align-items: center;
 }
 
-
+.radius{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
 .main-ib {
   text-align: center;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
- 
 
   &__border {
     padding: 20px;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     color: white;
     background-image: linear-gradient(to right, rgba(18, 70, 68, 1), rgba(18, 70, 68, .55), rgba(18, 70, 68, 1));
   }
@@ -99,14 +101,14 @@
       transition: 0.3s ease;
     }
   }
-
+  &__img {
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+  }
 }
 
-.main-ib__img {
-  height: 12px;
-  width: 12px;
-  margin-right: 5px;
-}
+
 
 .icon-size {
   height: 20px;

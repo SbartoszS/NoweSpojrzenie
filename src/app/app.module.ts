@@ -13,7 +13,6 @@ import { HomeComponent } from './home/home.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { GalleryService } from '../shared';
 import { McarouselComponent } from './home/mcarousel/mcarousel.component';
-import { BeautyComponent } from './home/beauty/beauty.component';
 import { ContactComponent } from './contact/contact.component';
 
 
@@ -29,7 +28,6 @@ import { ContactComponent } from './contact/contact.component';
     HomeComponent,
     GalleryComponent,
     McarouselComponent,
-    BeautyComponent,
     ContactComponent
   ],
   imports: [

@@ -1,5 +1,28 @@
 @import "variables";
 
+
+.carousel-control-prev-icon {
+  background-image: url("/../assets/img/light-arrow-left.png");
+  padding-left: 15px;
+}
+.carousel-control-next-icon {
+  background-image: url("/../assets/img/light-arrow-right.png");
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  transition: 0.3s ease;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: 1;
+  width: 20%;
+}
+
 .hero-shadow {
   position: absolute;
   top: 0;
@@ -156,12 +179,17 @@
     margin: 15px auto;
     padding: 0 15px;
   }
-
+  .carousel-control-next:hover .carousel-control-next-icon,
+  .carousel-control-prev:hover .carousel-control-prev-icon {
+    height: 50px;
+    width: 50px;
+  }
 
   .carousel-control-next,
   .carousel-control-prev {
     align-items: center;
     padding-bottom: 0;
+    width: 10%;
   }
 
 

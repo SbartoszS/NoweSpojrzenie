@@ -2,8 +2,7 @@
 
 
 .certificates {
-  margin-top: 20px;
-  margin-bottom: 70px;
+  margin: 50px 0 200px 0;
 
   &__title {
     position: relative;
@@ -28,7 +27,8 @@
 
 .document-img {
   height: 300px;
-  width: 200px;
+  width: 250px;
+  border: 1px solid $color-main;
 }
 
 .glide__arrow {
@@ -50,5 +50,15 @@
 
   .glide__arrow--left {
     left: -40px;
+  }
+
+  .certificates {
+    margin-bottom: 100px;
+  }
+}
+
+@include media(sm) {
+  .document-img {
+    width: 245px;
   }
 }

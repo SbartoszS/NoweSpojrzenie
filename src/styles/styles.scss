@@ -147,3 +147,20 @@ a
       }
     }
   }
+
+  /*main button*/ 
+
+  
+.main-button {
+  background-color: $color-second;
+  color: $color-main;
+  border: 1px solid $color-main;
+  padding: 10px 30px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.main-button:hover {
+  background-color: $color-main;
+  color: $color-second;
+  border: 1px solid $color-main;
+}

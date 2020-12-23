@@ -15,6 +15,7 @@ import { GalleryService } from '../shared';
 import { McarouselComponent } from './home/mcarousel/mcarousel.component';
 import { ContactComponent } from './contact/contact.component';
 import { PricelistComponent } from './pricelist/pricelist.component';
+import { TrainingComponent } from './training/training.component';
 
 
 
@@ -31,7 +32,8 @@ import { PricelistComponent } from './pricelist/pricelist.component';
     GalleryComponent,
     McarouselComponent,
     ContactComponent,
-    PricelistComponent
+    PricelistComponent,
+    TrainingComponent
   ],
   imports: [
     BrowserModule,

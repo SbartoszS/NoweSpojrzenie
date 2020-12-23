@@ -21,54 +21,23 @@
                         </div>
                     </div>
 
-                    <div class="table-content">
+                    <div class="table-content" *ngFor="let lashe of lashes$ | async">
                         <div class="row">
                             <div class="col-6">
-                                <h5 class="table-content__name">Metoda 1:1</h5>
+                                <h5 class="table-content__name">{{lashe.name}}</h5>
                             </div>
 
                             <div class="col-6">
-                                <p class="table-content__price"><strong>160zl</strong></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="table-content">
-                        <div class="row">
-                            <div class="col-6">
-                                <h5 class="table-content__name">Metoda 1:1</h5>
-                            </div>
+                                <p class="table-content__price"><strong>{{lashe.double ? lashe.price + assumption +
+                                        lashe.supplementPrice + supplement : lashe.price + " zł"}}</strong></p>
 
-                            <div class="col-6">
-                                <p class="table-content__price"><strong>160zl</strong></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="table-content">
-                        <div class="row">
-                            <div class="col-6">
-                                <h5 class="table-content__name">Metoda 1:1</h5>
-                            </div>
-
-                            <div class="col-6">
-                                <p class="table-content__price"><strong>160zl</strong></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="table-content">
-                        <div class="row">
-                            <div class="col-6">
-                                <h5 class="table-content__name">Metoda 1:1</h5>
-                            </div>
-
-                            <div class="col-6">
-                                <p class="table-content__price"><strong>160zl</strong></p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="table">
                     <div class="table-header">
-                        <h3 class="table-header__title">Aplikacja rzęs</h3>
+                        <h3 class="table-header__title">Aplikacja brwi</h3>
                         <div class="row">
                             <div class="col-6">
                                 <h4 class="table-header__subtitle">Zabieg</h4>
@@ -78,48 +47,16 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="table-content">
+                    <div class="table-content" *ngFor="let eyebrown of eyebrows$ | async">
                         <div class="row">
                             <div class="col-6">
-                                <h5 class="table-content__name">Metoda 1:1</h5>
+                                <h5 class="table-content__name">{{eyebrown.name}}</h5>
                             </div>
 
                             <div class="col-6">
-                                <p class="table-content__price"><strong>160zl</strong></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="table-content">
-                        <div class="row">
-                            <div class="col-6">
-                                <h5 class="table-content__name">Metoda 1:1</h5>
-                            </div>
-
-                            <div class="col-6">
-                                <p class="table-content__price"><strong>160zl</strong></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="table-content">
-                        <div class="row">
-                            <div class="col-6">
-                                <h5 class="table-content__name">Metoda 1:1</h5>
-                            </div>
-
-                            <div class="col-6">
-                                <p class="table-content__price"><strong>160zl</strong></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="table-content">
-                        <div class="row">
-                            <div class="col-6">
-                                <h5 class="table-content__name">Metoda 1:1</h5>
-                            </div>
-
-                            <div class="col-6">
-                                <p class="table-content__price"><strong>160zl</strong></p>
+                                <p class="table-content__price"><strong>{{eyebrown.double ? eyebrown.price + assumption
+                                        +
+                                        eyebrown.supplementPrice + supplement : eyebrown.price + " zł"}}</strong></p>
                             </div>
                         </div>
                     </div>

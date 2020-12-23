@@ -4,28 +4,32 @@
         "name": "Metoda Classic 1:1",
         "price": 160,
         "supplementPrice": 120,
-        "categories": "rzesy"
+        "categories": "rzesy",
+        "double": true
     },
     {
         "id": 2,
         "name": "Metoda 2/3D",
         "price": 180,
         "supplementPrice": 140,
-        "categories": "rzesy"
+        "categories": "rzesy",
+        "double": true
     },
     {
         "id": 3,
         "name": "Metoda 4/6D",
         "price": 190,
         "supplementPrice": 150,
-        "categories": "rzesy"
+        "categories": "rzesy",
+        "double": true
     },
     {
         "id": 4,
         "name": "Metoda Mega Volume 7/15D",
         "price": 200,
-        "supplementPrice": "160",
-        "categories": "rzesy"
+        "supplementPrice": 160,
+        "categories": "rzesy",
+        "double": true
     },
     {
         "id": 5,
@@ -43,7 +47,7 @@
         "id": 7,
         "name": "Laminacja brwi",
         "price": 50,
-        "categories": "rzesy"
+        "categories": "brwi"
     },
     {
         "id": 8,

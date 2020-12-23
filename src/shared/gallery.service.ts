@@ -14,7 +14,8 @@ export interface PriceList {
   name: string,
   price: number,
   supplementPrice: number,
-  categories: string
+  categories: string,
+  double: boolean
 }
 
 @Injectable()

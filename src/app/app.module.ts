@@ -14,7 +14,8 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { GalleryService } from '../shared';
 import { McarouselComponent } from './home/mcarousel/mcarousel.component';
 import { ContactComponent } from './contact/contact.component';
-import { TrainingComponent } from './training/training.component';
+import { PricelistComponent } from './pricelist/pricelist.component';
+
 
 
 @NgModule({
@@ -30,7 +31,7 @@ import { TrainingComponent } from './training/training.component';
     GalleryComponent,
     McarouselComponent,
     ContactComponent,
-    TrainingComponent
+    PricelistComponent
   ],
   imports: [
     BrowserModule,

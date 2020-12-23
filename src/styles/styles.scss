@@ -89,7 +89,7 @@ a
     &__leaf {
       position: relative;
       display: inline-block;
-      margin-bottom: 150px;
+      margin-bottom: $margin-section;
       text-align: center;
       color: $color-main;
   
@@ -147,3 +147,29 @@ a
       }
     }
   }
+
+  /*box-main*/
+
+  // .main-ib {
+  //   text-align: center;
+  //   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  //   border-radius: 10px;
+  
+  //   &__title {
+  //     padding: 10px;
+  //     border-top-left-radius: 7px;
+  //     border-top-right-radius: 7px;
+  //     color: white;
+  //     background-image: linear-gradient(to right, rgba(18, 70, 68, 1), rgba(18, 70, 68, .55), rgba(18, 70, 68, 1));
+  //   }
+  
+  //   &__content {
+  //     display: flex;
+  //     flex-direction: column;
+  //     justify-content: center;
+  //     padding: 15px 15px;
+  //     min-height: 220px;
+  //     font-weight: 600;
+  //   }
+  
+  // }

@@ -1,0 +1,83 @@
+@import 'variables';
+
+.price-list
+{
+    margin-top: $margin-section;
+    margin-bottom: $margin-section
+}
+
+.table 
+{
+    text-align: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 100px 0;
+}
+
+.table-header
+{
+    background-image: linear-gradient(to right, rgba(18, 70, 68, 1), rgba(18, 70, 68, .55), rgba(18, 70, 68, 1));
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 1px solid black;
+    text-transform: uppercase; 
+    color: $color-second;
+
+    &__title
+    {
+        padding: 10px;
+        margin: 0;
+        font-size: $font-normal;
+        border-bottom: 1px solid black;
+    }
+
+    &__subtitle
+    {
+        padding: 10px;
+        margin: 0;
+        font-size: $font-normal;
+    }
+}
+
+.table-content
+{
+    position: relative;
+
+    &:not(:last-of-type)::after
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        content: '';
+        height: 1px;
+        width: 100%;
+        background: $color-main;
+    }
+
+    &:nth-of-type(2n+1)
+    {
+        background-color: $color-second;
+    }
+
+    &:nth-last-of-type(1)
+    {
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+
+    &__name
+    {
+        font-size: $font-normal;
+        padding: 10px;
+        margin: 0;
+    }
+
+    &__price
+    {
+        font-size: $font-small;
+        padding: 10px;
+        margin: 0;
+    }
+}
+
+

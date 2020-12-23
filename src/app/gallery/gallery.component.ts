@@ -20,7 +20,9 @@ export class GalleryComponent implements OnInit {
       wrapAround: true,
       showImageNumberLabel: false
     });
+  }
 
+  ngAfterViewInit(): void {
     this.images$ = this.galleryService.getAll();
     this.galleryService.getAll().subscribe((resp: any) => {
       console.log(resp);

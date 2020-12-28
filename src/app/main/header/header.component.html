@@ -48,8 +48,8 @@
                         Oferta
                     </a>
                     <div class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Pielęgnacja rzęs</a>
-                        <a class="dropdown-item" href="#">Pielęgnacja brwi</a>
+                        <a class="dropdown-item" [routerLink]="['/oferta']"[queryParams]="{offer:'rzęs'}">Pielęgnacja rzęs</a>
+                        <a class="dropdown-item" [routerLink]="['/oferta']"[queryParams]="{offer:'brwi'}">Pielęgnacja brwi</a>
                     </div>
                 </li>
                 <li class="nav-item">

@@ -16,6 +16,7 @@ import { McarouselComponent } from './home/mcarousel/mcarousel.component';
 import { ContactComponent } from './contact/contact.component';
 import { PricelistComponent } from './pricelist/pricelist.component';
 import { TrainingComponent } from './training/training.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 
 
@@ -33,7 +34,8 @@ import { TrainingComponent } from './training/training.component';
     McarouselComponent,
     ContactComponent,
     PricelistComponent,
-    TrainingComponent
+    TrainingComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,

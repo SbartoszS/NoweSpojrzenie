@@ -12,10 +12,6 @@ export class TrainingComponent implements OnInit {
     e.target.classList.toggle("move");
   }
 
-  callMe() {
-    document.location.href = 'tel:797723557'
-  }
-
   ngOnInit(): void {
 
   }

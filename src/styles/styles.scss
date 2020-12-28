@@ -159,10 +159,14 @@ a
   padding: 10px 30px;
   cursor: pointer;
   margin-bottom: 20px;
-  transition: 0.3 ease;
+  transition: 0.3s ease;
 }
 .main-button:hover {
   background-color: $color-main;
   color: $color-second;
   border: 1px solid $color-main;
+}
+.main-button a:hover {
+text-decoration: none;
+color:$color-second;
 }

@@ -1,0 +1,38 @@
+<section class="offers-description">
+  <div class="leaf-title">
+    <div class="leaf-title__leaf">
+      <h1 class="leaf-title__title">Oferta</h1>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="single-offer" *ngFor='let item of offersList| async;let i = index'>
+      {{item.accordion_collapse}}
+      <div class="col-11">
+        <div class="accordion" id="acc{{i+1}}">
+          <div class="card">
+            <div class="hero-shadow"></div>
+            <div data-toggle="collapse" attr.data-target="#collapse{{i+1}}" aria-expanded="true"
+              aria-controls="collapse{{i+1}}">
+              <div class="">
+                <p class="offer__title">{{item.title}}</p>
+              </div>
+            </div>
+            <div id="collapse{{i+1}}" class="collapse" data-parent="#acc{{i+1}}">
+              <div class="offer-specification">
+                <p>{{item.description_par1}}</p>
+                <p>{{item.description_par2}}</p>
+                <p>{{item.description_par3}}</p>
+              </div>
+            </div>
+          </div>
+          <div class="slider-bottom">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</section>

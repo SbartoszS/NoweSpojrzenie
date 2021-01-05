@@ -1,0 +1,109 @@
+@import 'variables';
+
+.offers-description {
+  margin-top: 100px;
+}
+
+.single-offer {
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba($color: $color-main, $alpha: 0.7);
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.offer__title {
+  padding-top: 10px;
+  padding-left: 20px;
+  text-transform: uppercase;
+  font-size: 18px;
+  position: relative;
+  margin: 40px auto;
+
+  &::after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    bottom: -5px;
+    margin: 0 auto;
+    left: 20px;
+    width: 85px;
+    background: $color-second;
+    filter: blur(1px);
+  }
+}
+
+.offer-specification {
+  font-size: 14px;
+  padding: 20px 25px 50px 25px;
+}
+
+
+.slider-bottom {
+  color: $color-second;
+  position: relative;
+  height: 180px;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+  background-image: url('/../assets/img/oko-harmonijka.png');
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.card {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-image: url('/../assets/img/drzewo1.png');
+  border: 0;
+  color: $color-second;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+
+
+@include media(sm) {
+  .offer__title {
+
+    padding-left: 40px;
+    font-size: 20px;
+
+    &::after {
+      left: 40px;
+    }
+  }
+
+  .offer-specification {
+    font-size: 18px;
+    padding: 20px 40px 50px 40px;
+  }
+}
+
+@include media(md) {
+  .offer__title {
+
+    padding-left: 75px;
+    font-size: 22px;
+
+    &::after {
+      left: 75px;
+    }
+  }
+
+  .offer-specification {
+    font-size: 20px;
+    padding: 20px 75px 50px 75px;
+  }
+}

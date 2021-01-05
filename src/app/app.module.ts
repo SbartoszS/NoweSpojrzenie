@@ -17,6 +17,7 @@ import { ContactComponent } from './contact/contact.component';
 import { PricelistComponent } from './pricelist/pricelist.component';
 import { TrainingComponent } from './training/training.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { MainOffersComponent } from './main-offers/main-offers.component';
 
 
 
@@ -35,7 +36,8 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     ContactComponent,
     PricelistComponent,
     TrainingComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    MainOffersComponent
   ],
   imports: [
     BrowserModule,

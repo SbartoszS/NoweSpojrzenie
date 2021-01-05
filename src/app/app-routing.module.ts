@@ -6,13 +6,13 @@ import { HomeComponent } from './home/home.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { PricelistComponent } from './pricelist/pricelist.component';
 import { TrainingComponent } from './training/training.component';
-import { OffersComponent } from './offers/offers.component';
+import { MainOffersComponent } from './main-offers/main-offers.component';
 
 const routes: Routes = [
   // { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
-  { path: 'oferta', component: OffersComponent },
+  { path: 'oferta', component: MainOffersComponent },
   { path: 'szkolenia', component: TrainingComponent },
   { path: 'cennik', component: PricelistComponent },
   { path: 'galeria', component: GalleryComponent },

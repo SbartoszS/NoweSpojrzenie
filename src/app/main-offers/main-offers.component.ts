@@ -16,18 +16,14 @@ export class MainOffersComponent implements OnInit {
 
   ngOnInit(): void {
     this.offersList = this.httpService.getAllOffers();
+  }
 
+  dafaq(e: any): void {
     $(".slider__input").on('input change', function (event: any) {
       let sliderValue = $(this).val();
       console.log(sliderValue);
       $(".slider__drag").css("left", sliderValue + "%");
       $(".comparision__img-2").css("width", sliderValue + "%");
-    })
-  }
-
-  dafaq(): void {
-    $(".single-offer").on('click', function () {
-      console.log("hmmm");
     })
   }
 

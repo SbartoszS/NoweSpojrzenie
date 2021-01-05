@@ -18,13 +18,11 @@ export class MainOffersComponent implements OnInit {
     this.offersList = this.httpService.getAllOffers();
   }
 
-  dafaq(e: any): void {
-    $(".slider__input").on('input change', function (event: any) {
-      let sliderValue = $(this).val();
-      console.log(sliderValue);
-      $(".slider__drag").css("left", sliderValue + "%");
-      $(".comparision__img-2").css("width", sliderValue + "%");
-    })
+  progressChange(e: any): void {
+    const input = e.target;
+    const key = $(input).data('slide');
+    let sliderValue = $(input).val();
+    $(`.${key} .slider__drag`).css("left", sliderValue + "%");
+    $(`.wrapper_${key} .comparision__img-2`).css("width", sliderValue + "%");
   }
-
 }

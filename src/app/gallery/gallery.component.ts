@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { GalleryService, Gallery } from '../../shared';
+import { HttpService, Gallery } from '../../shared';
 
 declare var lightbox: any;
 
@@ -12,7 +12,7 @@ declare var lightbox: any;
 export class GalleryComponent implements OnInit {
   images$: Observable<Gallery[]>;
 
-  constructor(private galleryService: GalleryService) { }
+  constructor(private httpService: HttpService) { }
 
   ngOnInit(): void {
     lightbox.option({
@@ -23,8 +23,8 @@ export class GalleryComponent implements OnInit {
   }
 
   ngAfterViewInit(): void {
-    this.images$ = this.galleryService.getAll();
-    this.galleryService.getAll().subscribe((resp: any) => {
+    this.images$ = this.httpService.getAll();
+    this.httpService.getAll().subscribe((resp: any) => {
       console.log(resp);
     });
   }

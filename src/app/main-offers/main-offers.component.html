@@ -6,42 +6,33 @@
   </div>
 
   <div class="container">
-    <div class="single-offer">
+
+    <div class="single-offer" *ngFor='let item of offersList| async;let i = index'>
+      {{item.accordion_collapse}}
       <div class="col-11">
-        <div class="accordion" id="acc">
+        <div class="accordion" id="acc{{i+1}}">
           <div class="card">
             <div class="hero-shadow"></div>
-            <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">       
-                <div class="">
-                  <p class="offer__title">Metoda 1:1</p>
-                </div>      
-            </div>
-            <div id="collapseOne" class="collapse" data-parent="#acc">
-              <div class="offer-specification">
-                
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ut minima impedit natus laudantium,
-                  necessitatibus tempore odit, nesciunt sed accusamus cumque quaerat doloribus hic assumenda
-                  obcaecatiipsum dolor sit amet consectetur adipisicing elit. Nisi ut minima impedit natus laudantium,
-                  necessitatibus tempore odit, nesciunt sed accusamus cumque quaerat doloribus hic assumenda
-                  obcaecati
-                  fugit quam officia autem!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestias perferendis,
-                  inciduntipsum dolor sit amet consectetur adipisicing elit. Nisi ut minima impedit natus laudantium,
-                  necessitatibus tempore odit, nesciunt sed accusamus cumque quaerat doloribus hic assumenda
-                  </p>
-    
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni excepturi minus facere suscipit, tempore
-                  quos porro commodi. Eveniet, iste porro.</p>
-    
+            <div data-toggle="collapse" attr.data-target="#collapse{{i+1}}" aria-expanded="true"
+              aria-controls="collapse{{i+1}}">
+              <div class="">
+                <p class="offer__title">{{item.title}}</p>
               </div>
-            </div>       
+            </div>
+            <div id="collapse{{i+1}}" class="collapse" data-parent="#acc{{i+1}}">
+              <div class="offer-specification">
+                <p>{{item.description_par1}}</p>
+                <p>{{item.description_par2}}</p>
+                <p>{{item.description_par3}}</p>
+              </div>
+            </div>
           </div>
           <div class="slider-bottom">
           </div>
         </div>
       </div>
-      
     </div>
-   
+
+
   </div>
 </section>

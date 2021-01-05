@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { HttpService } from 'src/shared';
+import { SingleOffer } from '../models/SingleOffer';
 
 @Component({
   selector: 'ns-main-offers',
@@ -6,10 +9,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main-offers.component.scss']
 })
 export class MainOffersComponent implements OnInit {
-
-  constructor() { }
+offersList : Observable<SingleOffer[]>;
+  constructor(private httpService : HttpService) { }
 
   ngOnInit(): void {
+    this.offersList = this.httpService.getAllOffers();
   }
 
 }

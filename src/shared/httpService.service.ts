@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
+import {SingleOffer} from '../app/models/SingleOffer'
 
 
 export interface Gallery {
@@ -19,7 +20,7 @@ export interface PriceList {
 }
 
 @Injectable()
-export class GalleryService {
+export class HttpService {
 
   constructor(private http: HttpClient) { }
 
@@ -34,5 +35,9 @@ export class GalleryService {
   getByCategoryPrice(category: string): Observable<PriceList[]> {
     return this.http.get<PriceList[]>('./assets/price-list.json').pipe(
       map(products => products.filter(p => p.categories.includes(category))));
+  }
+
+  getAllOffers(): Observable<SingleOffer[]> {
+    return this.http.get<SingleOffer[]>('./assets/offerList.json');
   }
 }

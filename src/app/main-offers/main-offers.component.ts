@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Params } from '@angular/router';
 import { Observable } from 'rxjs';
 import { HttpService } from 'src/shared';
+import { OfferTitle } from '../models/OfferTitle';
 import { SingleOffer } from '../models/SingleOffer';
 
 declare var $: any;
@@ -12,10 +14,18 @@ declare var $: any;
 })
 export class MainOffersComponent implements OnInit {
   offersList: Observable<SingleOffer[]>;
-  constructor(private httpService: HttpService) { }
+  category;
+  titlesList: OfferTitle;
+  constructor(private httpService: HttpService, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.offersList = this.httpService.getAllOffers();
+    this.route.queryParams.subscribe((params: Params) => {
+      this.category = params.offer;
+      this.offersList = this.httpService.getAllOffersByCategory(this.category);
+      this.httpService.getAllOffersTitleByCategory(this.category).subscribe(data =>{
+        this.titlesList = data[0];       
+      });
+     })
   }
 
   progressChange(e: any): void {

@@ -6,6 +6,13 @@
   </div>
 
   <div class="container">
+      <h2 class="section-title">{{titlesList?.title}}</h2>
+      <p class="section-title__description">{{titlesList?.description}}</p>
+      <p class="section-title__description">{{titlesList?.description}}</p>
+    <div class="button-container">
+      <button class="main-button" *ngFor='let item of offersList | async'>{{item.title}}</button>
+    </div>
+
 
     <div class="single-offer" *ngFor='let item of offersList| async;let i = index'>
       {{item.accordion_collapse}}
@@ -37,7 +44,7 @@
                 <span class="slider__circle"></span>
               </div>
               <input class="slider__input" attr.data-slide="slider{{i+1}}" type="range" min="0" max="100" value="50"
-               (input)="progressChange($event)">
+                (input)="progressChange($event)">
             </div>
           </div>
         </div>

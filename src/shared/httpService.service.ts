@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import {SingleOffer} from '../app/models/SingleOffer'
-
+import {OfferTitle} from '../app/models/OfferTitle'
 
 export interface Gallery {
   id: number;
@@ -37,7 +37,12 @@ export class HttpService {
       map(products => products.filter(p => p.categories.includes(category))));
   }
 
-  getAllOffers(): Observable<SingleOffer[]> {
-    return this.http.get<SingleOffer[]>('./assets/offerList.json');
+  getAllOffersByCategory(category: string): Observable<SingleOffer[]> {
+    return this.http.get<SingleOffer[]>('./assets/offerList.json').pipe(
+      map(list => list.filter(p => p.category.includes(category))));
+  }
+  getAllOffersTitleByCategory(category: string): Observable<OfferTitle[]> {
+    return this.http.get<OfferTitle[]>('./assets/offerTitle.json').pipe(
+      map(data => data.filter(p => p.category.includes(category))));
   }
 }

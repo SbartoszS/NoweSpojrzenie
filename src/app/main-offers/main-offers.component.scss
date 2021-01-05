@@ -188,12 +188,43 @@
     }
 }
 
+.section-title {
+  font-size: 36px;
+  font-weight: 600;
+  position: relative;
+  margin: 60px auto;
+  text-align: center;
+
+  &::after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    bottom: -12px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 140px;
+    background: $color-main;
+    filter: blur(1px);
+  }
+  &__description{
+    text-align: center;
+    padding: 10px 15px;
+  }
+}
+
+.button-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 20px;
+}
 
 
-
-
-
-
+.main-button{
+  margin-right: 10px;
+}
 
 @include media(sm) {
   .offer__title {

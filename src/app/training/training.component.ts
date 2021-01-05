@@ -8,9 +8,12 @@ export class TrainingComponent implements OnInit {
 
   constructor() { }
 
-  switcharrow(e) {
-    e.target.classList.toggle("move");
-  }
+  switcharrow(name) {
+ 
+      const arr1 = document.querySelector(`.${name}`);
+      arr1.classList.toggle("move");
+
+    }
 
   ngOnInit(): void {
 

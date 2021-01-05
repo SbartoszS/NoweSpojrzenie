@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "title": "Metoda Classic 1:1",
+        "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "url_imgBefore": "./img/cos.png",
+        "url_imgAfter": "./img/cos.png"
+    },
+    {
+        "id": 2,
+        "title": "Metoda 2/3D",
+        "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "url_imgBefore": "./img/cos.png",
+        "url_imgAfter": "./img/cos.png"
+    },
+    {
+        "id": 3,
+        "title": "Metoda 4/6D",
+        "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "url_imgBefore": "./img/cos.png",
+        "url_imgAfter": "./img/cos.png"
+    },
+    {
+        "id": 4,
+        "title": "Metoda Mega Volume 7/15D",
+        "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "url_imgBefore": "./img/cos.png",
+        "url_imgAfter": "./img/cos.png"
+    },
+    {
+        "id": 5,
+        "title": "Zdjęcie rzęs",
+        "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "url_imgBefore": "./img/cos.png",
+        "url_imgAfter": "./img/cos.png"
+    },
+    {
+        "id": 6,
+        "title": "Lifting rzęs",
+        "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "url_imgBefore": "./img/cos.png",
+        "url_imgAfter": "./img/cos.png"
+    },
+    {
+        "id": 7,
+        "title" : "Henna poranna",
+        "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "url_imgBefore": "./img/cos.png",
+        "url_imgAfter": "./img/cos.png"
+    },
+    {
+        "id": 8,
+        "title": "Laminacja brwi + farbka",
+        "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "url_imgBefore": "./img/cos.png",
+        "url_imgAfter": "./img/cos.png"
+    },
+    {
+        "id": 9,
+        "title": "Henna pudrowa brwi z geometrią",
+        "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "url_imgBefore": "./img/cos.png",
+        "url_imgAfter": "./img/cos.png"
+    },
+    {
+        "id": 10,
+        "title": "Henna żelowa brwi z regulacją",
+        "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "url_imgBefore": "./img/cos.png",
+        "url_imgAfter": "./img/cos.png"
+    },
+    {
+        "id": 11,
+        "title": "Henna brwi z regulacją + henna rzęs",
+        "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "url_imgBefore": "./img/cos.png",
+        "url_imgAfter": "./img/cos.png"
+    },
+    {
+        "id": 12,
+        "title": "Regulacja brwi pęseta",
+        "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "url_imgBefore": "./img/cos.png",
+        "url_imgAfter": "./img/cos.png"
+    },
+    {
+        "id": 13,
+        "title": "Wosk",
+        "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "url_imgBefore": "./img/cos.png",
+        "url_imgAfter": "./img/cos.png"
+    },
+    {
+        "id": 14,
+        "title": "Makijaż permanentny brwi(z korekta po 5 tygodniach)",
+        "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
+        "url_imgBefore": "./img/cos.png",
+        "url_imgAfter": "./img/cos.png"
+    }
+]

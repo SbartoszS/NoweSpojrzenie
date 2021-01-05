@@ -41,12 +41,13 @@
 
         <div class="accordion" id="acc">
           <div class="card">
-            <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" 
+            aria-controls="collapseOne" (click)='switcharrow("a1")'>
               <div class="box-cosmetic">
                 <div class="box-cosmetic__content">
                   <div class="hero-shadow"></div>
                   <p class="card__title">Szkolenie z metody objętościowej 1:1</p>
-                  <img src="./assets/img/arrow-icon-small.png" class="move" (click)='switcharrow($event)' alt="arrow icon">
+                  <img src="./assets/img/arrow-icon-small.png" id="a1" class="a1 move"  alt="arrow icon">
                 </div>
               </div>
             </div>
@@ -72,14 +73,15 @@
         </div>
 
 
-        <div class="accordion" id="acc2">
+        <div class="accordion" id="acc2" >
           <div class="card">
-            <div data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+            <div data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" 
+            aria-controls="collapseTwo" (click)='switcharrow("a2")'>
               <div class="box-cosmetic">
                 <div class="box-cosmetic__content">
                   <div class="hero-shadow"></div>
                   <p class="card__title">Szkolenie z metody objętościowej 1:1</p>
-                  <img src="./assets/img/arrow-icon-small.png" (click)='switcharrow($event)' alt="arrow icon">
+                  <img src="./assets/img/arrow-icon-small.png" id="a2" class="a2" alt="arrow icon">
                 </div>
               </div>
             </div>
@@ -107,12 +109,13 @@
 
         <div class="accordion" id="acc3">
           <div class="card">
-            <div data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+            <div data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" 
+            aria-controls="collapseThree" (click)='switcharrow("a3")'>
               <div class="box-cosmetic">
                 <div class="box-cosmetic__content">
                   <div class="hero-shadow"></div>
                   <p class="card__title">Szkolenie z metody objętościowej 1:1</p>
-                  <img src="./assets/img/arrow-icon-small.png" (click)='switcharrow($event)' alt="arrow icon">
+                  <img src="./assets/img/arrow-icon-small.png" id="a3" class="a3" alt="arrow icon">
                 </div>
               </div>
             </div>

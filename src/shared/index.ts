@@ -1,5 +1,5 @@
-import { GalleryService, Gallery } from './gallery.service';
-export { GalleryService, Gallery } from './gallery.service';
+import { HttpService, Gallery } from './httpService.service';
+export { HttpService, Gallery } from './httpService.service';
 
 
 

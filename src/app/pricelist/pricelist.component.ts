@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { GalleryService, PriceList } from 'src/shared/gallery.service';
+import { HttpService, PriceList } from 'src/shared/httpService.service';
 
 @Component({
   selector: 'ns-pricelist',
@@ -12,7 +12,7 @@ export class PricelistComponent implements OnInit {
   eyebrows$: Observable<PriceList[]>;
   assumption: string = " zł (nowe założenie) / ";
   supplement: string = " zł (uzupełnienie)"
-  constructor(private galleryService: GalleryService) { }
+  constructor(private httpService: HttpService) { }
 
 
   ngOnInit(): void {
@@ -20,8 +20,8 @@ export class PricelistComponent implements OnInit {
   }
 
   ngAfterViewInit(): void {
-    this.lashes$ = this.galleryService.getByCategoryPrice("rzesy");
-    this.eyebrows$ = this.galleryService.getByCategoryPrice("brwi");
+    this.lashes$ = this.httpService.getByCategoryPrice("rzesy");
+    this.eyebrows$ = this.httpService.getByCategoryPrice("brwi");
   }
 
 }

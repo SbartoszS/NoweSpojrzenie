@@ -21,9 +21,9 @@
     <div class="container">
       <h2 class="section-title">{{titlesList?.title}}</h2>
       <p class="section-title__description">{{titlesList?.description}}</p>
-      <p class="section-title__description">{{titlesList?.description}}</p>
+      <p class="section-title__description ">{{titlesList?.description}}</p>
       <div class="button-container">
-        <button class="main-button" *ngFor='let item of offersList'>{{item.title}}</button>
+        <button class="main-button scroll-begin" (click)="smoothScroll(item.id)" *ngFor='let item of offersList'>{{item.title}}</button>
       </div>
     </div>
   </ng-template>
@@ -68,4 +68,7 @@
       </div>
     </div>
   </ng-template>
+  <div class="back" style="opacity: 0;">
+    <img src="./assets/img/check_i.png" alt="" srcset="" (click)='scrollToTop()'>
+  </div>
 </section>

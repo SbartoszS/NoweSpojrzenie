@@ -27,10 +27,10 @@ export class MainOffersComponent implements OnInit {
         this.offersList = data;
       });
 
-      this.httpService.getAllOffersTitleByCategory(this.category).subscribe(data =>{
-        this.titlesList = data[0];  
+      this.httpService.getAllOffersTitleByCategory(this.category).subscribe(data => {
+        this.titlesList = data[0];
       });
-     })
+    })
   }
 
   progressChange(e: any): void {

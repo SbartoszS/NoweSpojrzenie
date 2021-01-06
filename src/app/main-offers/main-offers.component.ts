@@ -21,9 +21,12 @@ export class MainOffersComponent implements OnInit {
   ngOnInit(): void {
     this.route.queryParams.subscribe((params: Params) => {
       this.category = params.offer;
-      this.httpService.getAllOffersByCategory(this.category).subscribe(data =>{
+      this.offersList = null;
+      this.titlesList = null;
+      this.httpService.getAllOffersByCategory(this.category).subscribe(data => {
         this.offersList = data;
       });
+
       this.httpService.getAllOffersTitleByCategory(this.category).subscribe(data =>{
         this.titlesList = data[0];  
       });

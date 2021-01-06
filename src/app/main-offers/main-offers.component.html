@@ -30,7 +30,7 @@
 
   <ng-template #contentAccordion>
     <div class="container">
-      <div class="single-offer" *ngFor='let item of offersList;let i = index'>
+      <div class="single-offer" *ngFor='let item of offersList; let i = index'>
         {{item.accordion_collapse}}
         <div class="col-11">
           <div class="accordion" id="acc{{i+1}}">

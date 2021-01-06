@@ -33,8 +33,8 @@ export class MainOffersComponent implements OnInit, AfterViewInit {
         this.offersList = data;
       });
 
-      this.httpService.getAllOffersTitleByCategory(this.category).subscribe(data =>{
-        this.titlesList = data[0];  
+      this.httpService.getAllOffersTitleByCategory(this.category).subscribe(data => {
+        this.titlesList = data[0];
       });
      })
 

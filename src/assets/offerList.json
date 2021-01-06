@@ -6,8 +6,8 @@
         "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
-        "url_imgBefore": "./img/cos.png",
-        "url_imgAfter": "./img/cos.png"
+        "url_imgBefore": "./assets/img/test1.png",
+        "url_imgAfter": "./assets/img/test2.png"
     },
     {
         "id": 2,
@@ -16,8 +16,8 @@
         "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
-        "url_imgBefore": "./img/cos.png",
-        "url_imgAfter": "./img/cos.png"
+        "url_imgBefore": "./assets/img/test1.png",
+        "url_imgAfter": "./assets/img/test2.png"
     },
     {
         "id": 3,
@@ -26,8 +26,8 @@
         "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
-        "url_imgBefore": "./img/cos.png",
-        "url_imgAfter": "./img/cos.png"
+        "url_imgBefore": "./assets/img/test1.png",
+        "url_imgAfter": "./assets/img/test2.png"
     },
     {
         "id": 4,
@@ -36,8 +36,8 @@
         "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
-        "url_imgBefore": "./img/cos.png",
-        "url_imgAfter": "./img/cos.png"
+        "url_imgBefore": "./assets/img/test1.png",
+        "url_imgAfter": "./assets/img/test2.png"
     },
     {
         "id": 5,
@@ -46,8 +46,8 @@
         "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
-        "url_imgBefore": "./img/cos.png",
-        "url_imgAfter": "./img/cos.png"
+        "url_imgBefore": "./assets/img/test1.png",
+        "url_imgAfter": "./assets/img/test2.png"
     },
     {
         "id": 6,
@@ -56,18 +56,18 @@
         "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
-        "url_imgBefore": "./img/cos.png",
-        "url_imgAfter": "./img/cos.png"
+        "url_imgBefore": "./assets/img/test1.png",
+        "url_imgAfter": "./assets/img/test2.png"
     },
     {
         "id": 7,
-        "title" : "Henna poranna",
+        "title": "Henna poranna",
         "category": "rzesy",
         "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
-        "url_imgBefore": "./img/cos.png",
-        "url_imgAfter": "./img/cos.png"
+        "url_imgBefore": "./assets/img/test1.png",
+        "url_imgAfter": "./assets/img/test2.png"
     },
     {
         "id": 8,
@@ -76,8 +76,8 @@
         "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
-        "url_imgBefore": "./img/cos.png",
-        "url_imgAfter": "./img/cos.png"
+        "url_imgBefore": "./assets/img/test1.png",
+        "url_imgAfter": "./assets/img/test2.png"
     },
     {
         "id": 9,
@@ -86,8 +86,8 @@
         "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
-        "url_imgBefore": "./img/cos.png",
-        "url_imgAfter": "./img/cos.png"
+        "url_imgBefore": "./assets/img/test1.png",
+        "url_imgAfter": "./assets/img/test2.png"
     },
     {
         "id": 10,
@@ -96,8 +96,8 @@
         "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
-        "url_imgBefore": "./img/cos.png",
-        "url_imgAfter": "./img/cos.png"
+        "url_imgBefore": "./assets/img/test1.png",
+        "url_imgAfter": "./assets/img/test2.png"
     },
     {
         "id": 11,
@@ -106,8 +106,8 @@
         "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
-        "url_imgBefore": "./img/cos.png",
-        "url_imgAfter": "./img/cos.png"
+        "url_imgBefore": "./assets/img/test1.png",
+        "url_imgAfter": "./assets/img/test2.png"
     },
     {
         "id": 12,
@@ -116,8 +116,8 @@
         "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
-        "url_imgBefore": "./img/cos.png",
-        "url_imgAfter": "./img/cos.png"
+        "url_imgBefore": "./assets/img/test1.png",
+        "url_imgAfter": "./assets/img/test2.png"
     },
     {
         "id": 13,
@@ -126,8 +126,8 @@
         "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
-        "url_imgBefore": "./img/cos.png",
-        "url_imgAfter": "./img/cos.png"
+        "url_imgBefore": "./assets/img/test1.png",
+        "url_imgAfter": "./assets/img/test2.png"
     },
     {
         "id": 14,
@@ -136,7 +136,7 @@
         "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par2": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
         "description_par3": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
-        "url_imgBefore": "./img/cos.png",
-        "url_imgAfter": "./img/cos.png"
+        "url_imgBefore": "./assets/img/test1.png",
+        "url_imgAfter": "./assets/img/test2.png"
     }
 ]

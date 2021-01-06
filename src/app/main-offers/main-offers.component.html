@@ -4,53 +4,68 @@
       <h1 class="leaf-title__title">Oferta</h1>
     </div>
   </div>
+  <div *ngIf="titlesList; then contentTitle else loadModal"></div>
+  <div *ngIf="offersList; then contentAccordion else loadModal"></div>
 
-  <div class="container">
+  <ng-template #loadModal>
+    <div class="blurred">
+      <button class="btn btn-primary loading-button" type="button" disabled>
+        <div class="vert">
+          <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </button>
+    </div>
+  </ng-template>
+  <ng-template #contentTitle>
+    <div class="container">
       <h2 class="section-title">{{titlesList?.title}}</h2>
       <p class="section-title__description">{{titlesList?.description}}</p>
       <p class="section-title__description">{{titlesList?.description}}</p>
-    <div class="button-container">
-      <button class="main-button" *ngFor='let item of offersList | async'>{{item.title}}</button>
+      <div class="button-container">
+        <button class="main-button" *ngFor='let item of offersList'>{{item.title}}</button>
+      </div>
     </div>
+  </ng-template>
 
-
-    <div class="single-offer" *ngFor='let item of offersList| async;let i = index'>
-      {{item.accordion_collapse}}
-      <div class="col-11">
-        <div class="accordion" id="acc{{i+1}}">
-          <div class="card">
-            <div class="hero-shadow"></div>
-            <div data-toggle="collapse" attr.data-target="#collapse{{i+1}}" aria-expanded="true"
-              aria-controls="collapse{{i+1}}">
-              <div class="">
-                <p class="offer__title">{{item.title}}</p>
+  <ng-template #contentAccordion>
+    <div class="container">
+      <div class="single-offer" *ngFor='let item of offersList;let i = index'>
+        {{item.accordion_collapse}}
+        <div class="col-11">
+          <div class="accordion" id="acc{{i+1}}">
+            <div class="card">
+              <div class="hero-shadow"></div>
+              <div data-toggle="collapse" attr.data-target="#collapse{{i+1}}" aria-expanded="true"
+                aria-controls="collapse{{i+1}}">
+                <div class="">
+                  <p class="offer__title">{{item.title}}</p>
+                </div>
+              </div>
+              <div id="collapse{{i+1}}" class="collapse" data-parent="#acc{{i+1}}">
+                <div class="offer-specification">
+                  <p>{{item.description_par1}}</p>
+                  <p>{{item.description_par2}}</p>
+                  <p>{{item.description_par3}}</p>
+                </div>
               </div>
             </div>
-            <div id="collapse{{i+1}}" class="collapse" data-parent="#acc{{i+1}}">
-              <div class="offer-specification">
-                <p>{{item.description_par1}}</p>
-                <p>{{item.description_par2}}</p>
-                <p>{{item.description_par3}}</p>
+            <div class="wrapper-bottom wrapper_slider{{i+1}}">
+              <div class="comparision">
+                <div class="comparision__img-1"></div>
+                <div class="comparision__img-2"></div>
               </div>
-            </div>
-          </div>
-          <div class="wrapper-bottom wrapper_slider{{i+1}}">
-            <div class="comparision">
-              <div class="comparision__img-1"></div>
-              <div class="comparision__img-2"></div>
-            </div>
-            <div class="slider slider{{i+1}}">
-              <div class="slider__drag">
-                <span class="slider__circle"></span>
+              <div class="slider slider{{i+1}}">
+                <div class="slider__drag">
+                  <span class="slider__circle"></span>
+                </div>
+                <input class="slider__input" attr.data-slide="slider{{i+1}}" type="range" min="0" max="100" value="50"
+                  (input)="progressChange($event)">
               </div>
-              <input class="slider__input" attr.data-slide="slider{{i+1}}" type="range" min="0" max="100" value="50"
-                (input)="progressChange($event)">
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
-  </div>
+  </ng-template>
 </section>

@@ -13,7 +13,7 @@ declare var $: any;
   styleUrls: ['./main-offers.component.scss']
 })
 export class MainOffersComponent implements OnInit {
-  offersList: Observable<SingleOffer[]>;
+  offersList: SingleOffer[];
   category;
   titlesList: OfferTitle;
   constructor(private httpService: HttpService, private route: ActivatedRoute) { }
@@ -21,9 +21,11 @@ export class MainOffersComponent implements OnInit {
   ngOnInit(): void {
     this.route.queryParams.subscribe((params: Params) => {
       this.category = params.offer;
-      this.offersList = this.httpService.getAllOffersByCategory(this.category);
+      this.httpService.getAllOffersByCategory(this.category).subscribe(data =>{
+        this.offersList = data;
+      });
       this.httpService.getAllOffersTitleByCategory(this.category).subscribe(data =>{
-        this.titlesList = data[0];       
+        this.titlesList = data[0];  
       });
      })
   }

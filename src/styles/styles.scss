@@ -183,3 +183,25 @@ color:$color-second;
   overflow: hidden;
   display: block;
 }
+
+//loading screen
+.loading-button{
+  z-index: 1000;
+  position: fixed;
+  top: 50%; right: 50%;
+  transform: translate(50%,-50%);
+  opacity: 1;
+  background-color: $color-main;
+  color: $color-second;
+  border: 0;
+  padding: 15px; 
+}
+
+.vert{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.spinner-border{
+margin-right: 5px;
+}

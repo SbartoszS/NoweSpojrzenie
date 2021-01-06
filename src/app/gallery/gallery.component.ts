@@ -23,9 +23,8 @@ export class GalleryComponent implements OnInit {
   }
 
   ngAfterViewInit(): void {
-    this.images$ = this.httpService.getAll();
-    this.httpService.getAll().subscribe((resp: any) => {
-      console.log(resp);
+    this.httpService.getAll().subscribe((data: any) => {
+      this.images$ = data;
     });
   }
 }

@@ -1,16 +1,29 @@
-<section class="gallery">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="gallery__leaf">
-                <h1 class="gallery__title">Galeria</h1>
+<div *ngIf="images$; then contentGallery else loadModal"></div>
+<ng-template #loadModal>
+    <div class="blurred">
+        <button class="loading-button" type="button" disabled>
+            <div class="vert">
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                <span class="visually-hidden">Loading...</span>
             </div>
-            <div class="card-columns">
-                <div class="card" *ngFor="let image of images$ | async">
-                    <a [attr.href]="image.imageUrl" data-lightbox="image-1" class="img-fluid">
-                        <img [attr.src]="image.imageUrl" class="card-img-top gallery__img">
-                    </a>
+        </button>
+    </div>
+</ng-template>
+<ng-template #contentGallery>
+    <section class="gallery">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="gallery__leaf">
+                    <h1 class="gallery__title">Galeria</h1>
+                </div>
+                <div class="card-columns">
+                    <div class="card" *ngFor="let image of images$">
+                        <a [attr.href]="image.imageUrl" data-lightbox="image-1" class="img-fluid">
+                            <img [attr.src]="image.imageUrl" class="card-img-top gallery__img">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+</ng-template>

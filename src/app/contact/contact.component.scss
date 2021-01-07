@@ -27,6 +27,7 @@
   }
 
   &__content {
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,4 +60,10 @@
 .main-ib__content a:hover {
   text-decoration: none;
   color: $color-third;
+}
+
+@include media(lg){
+  .main-ib__content{
+    font-size: 15px;
+  }
 }

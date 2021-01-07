@@ -80,6 +80,7 @@
 }
 
 .glide__arrow {
+  display: none;
   border: 0;
   padding: 0;
   border-radius: 50%;
@@ -98,17 +99,36 @@
   opacity: 1;
 }
 
+.glide__bullets {
+  bottom: -25px;
+}
+.glide__bullet {
+  height: 15px;
+  width: 15px;
+  border: 0;
+  background-color: rgba(18, 70, 68, 0.5);
+}
+.glide__bullet--active {
+  background-color: rgba(18, 70, 68, 1);
+}
+.glide__bullet:hover,
+.glide__bullet:focus {
+  border: 0;
+}
+
 @include media(md) {
   .glide__arrow {
     top: 50%;
+    display: block;
   }
 
+  
   .glide__arrow--right {
-    right: -40px;
+    right: -20px;
   }
 
   .glide__arrow--left {
-    left: -40px;
+    left: -20px;
   }
 
   .certificates {

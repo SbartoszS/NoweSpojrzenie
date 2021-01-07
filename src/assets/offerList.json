@@ -70,7 +70,7 @@
         "url_imgAfter": "./assets/img/test2.png"
     },
     {
-        "id": 8,
+        "id": 1,
         "title": "Laminacja brwi + farbka",
         "category": "brwi",
         "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
@@ -80,7 +80,7 @@
         "url_imgAfter": "./assets/img/test2.png"
     },
     {
-        "id": 9,
+        "id": 2,
         "title": "Henna pudrowa brwi z geometrią",
         "category": "brwi",
         "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
@@ -90,7 +90,7 @@
         "url_imgAfter": "./assets/img/test2.png"
     },
     {
-        "id": 10,
+        "id": 3,
         "title": "Henna żelowa brwi z regulacją",
         "category": "brwi",
         "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
@@ -100,7 +100,7 @@
         "url_imgAfter": "./assets/img/test2.png"
     },
     {
-        "id": 11,
+        "id": 4,
         "title": "Henna brwi z regulacją + henna rzęs",
         "category": "brwi",
         "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
@@ -110,7 +110,7 @@
         "url_imgAfter": "./assets/img/test2.png"
     },
     {
-        "id": 12,
+        "id": 5,
         "title": "Regulacja brwi pęseta",
         "category": "brwi",
         "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
@@ -120,7 +120,7 @@
         "url_imgAfter": "./assets/img/test2.png"
     },
     {
-        "id": 13,
+        "id": 6,
         "title": "Wosk",
         "category": "brwi",
         "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",
@@ -130,7 +130,7 @@
         "url_imgAfter": "./assets/img/test2.png"
     },
     {
-        "id": 14,
+        "id": 7,
         "title": "Makijaż permanentny brwi(z korekta po 5 tygodniach)",
         "category": "brwi",
         "description_par1": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur",

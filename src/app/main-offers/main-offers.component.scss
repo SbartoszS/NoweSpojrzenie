@@ -248,19 +248,19 @@
   }
 }
 
-.button-container {
+.title-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding: 50px 20px;
+  &__titles{
+    padding: 10px 40px;
+    cursor: pointer;
+    letter-spacing: 2px;
+  }
 }
 
-
-.main-button {
-  margin-right: 10px;
-  text-decoration: none;
-}
 
 @include media(sm) {
   .offer__title {
@@ -281,15 +281,12 @@
 
 @include media(md) {
   .offer__title {
-
     padding-left: 75px;
     font-size: 22px;
-
     &::after {
       left: 75px;
     }
   }
-
   .offer-specification {
     font-size: 20px;
     padding: 20px 75px 50px 75px;
@@ -297,9 +294,3 @@
 }
 
 
-.back {
-  cursor: pointer;
-  position: fixed;
-  bottom: 65%;
-  left: 20%;
-}

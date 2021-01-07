@@ -208,7 +208,7 @@
 }
 
 .section-title {
-  font-size: $font-subtitle-page;
+  font-size: 18px;
   font-weight: 600;
   position: relative;
   margin: 0 auto $margin-section-bottom auto;
@@ -235,9 +235,6 @@
 
 .title-container {
   display: flex;
-  // justify-content: center;
-  // align-items: center;
-  // flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
@@ -248,6 +245,9 @@
     cursor: pointer;
     letter-spacing: 2px;
     margin-bottom: 0;
+    &::before{
+      content: "\2661";
+    }
   }
 }
 
@@ -264,6 +264,12 @@
   }
   .title-container__titles{
     flex-basis: 33%;
+  }
+}
+
+@include media(md){
+  .section-title {
+    font-size: $font-subtitle-page;
   }
 }
 

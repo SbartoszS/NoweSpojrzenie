@@ -50,17 +50,5 @@ export class MainOffersComponent implements OnInit {
       scrollTop: $(destinationId).offset().top-toTop
     }, 1000)
   }
-
-  scrollToTop(){
-    $('html, body').animate({
-      scrollTop: 0
-    }, 1000)
-  }
-
-
-  @HostListener('window:scroll')
-  onWindowScroll() {
-    if   (window.pageYOffset >= 200) $('.return-top').fadeIn(200);
-    else $('.return-top').fadeOut(200);
-  }
+  
 }

@@ -38,9 +38,10 @@
             <div class="card">
               <div class="hero-shadow"></div>
               <div data-toggle="collapse" attr.data-target="#collapse{{i+1}}" aria-expanded="true"
-                aria-controls="collapse{{i+1}}">
-                <div class="">
+                aria-controls="collapse{{i+1}}" (click)='switcharrow(i+1)'>
+                <div class="offer">
                   <p class="offer__title">{{item.title}}</p>
+                  <img src="./assets/img/arrow-icon-small.png" class="a{{i+1}} arrow-things" alt="arrow icon">
                 </div>
               </div>
               <div id="collapse{{i+1}}" class="collapse" data-parent="#acc{{i+1}}">

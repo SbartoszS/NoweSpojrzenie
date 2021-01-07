@@ -23,7 +23,8 @@
       <p class="section-title__description">{{titlesList?.description}}</p>
       <p class="section-title__description ">{{titlesList?.description}}</p>
       <div class="title-container">
-        <p class="title-container__titles" (click)="smoothScroll(item.id)" *ngFor='let item of offersList'>{{item.title}}</p>
+        <p class="title-container__titles" (click)="smoothScroll(item.id)" *ngFor='let item of offersList'>
+          {{item.title}}</p>
       </div>
     </div>
   </ng-template>
@@ -32,7 +33,7 @@
     <div class="container">
       <div class="single-offer" *ngFor='let item of offersList; let i = index'>
         {{item.accordion_collapse}}
-        <div class="col-11">
+        <div class="col-12 col-lg-11">
           <div class="accordion" id="acc{{i+1}}">
             <div class="card">
               <div class="hero-shadow"></div>

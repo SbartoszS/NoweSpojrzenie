@@ -42,8 +42,8 @@
 }
 
 .offer-specification {
-  font-size: 14px;
-  padding: 20px 25px 50px 25px;
+  font-size: $font-small;
+  padding: 10px 15px;
 }
 
 .card {
@@ -95,21 +95,6 @@
         width: 50%;
         background-repeat: no-repeat; 
     }
-
-    // &__text{
-    //   text-orientation: upright;
-    //   writing-mode: vertical-rl;
-    //   top: 0;
-    //   left: 0;
-    //   height: 100%;
-    //   width: 40px;
-    //   line-height: 40px;
-    //   text-align: center;
-    //   background-image: linear-gradient(to top, rgba(18, 70, 68, .55), rgba(18, 70, 68, 1), rgba(18, 70, 68, .55));
-    //   text-transform: uppercase;
-    //   vertical-align: middle;
-    //   color: white;
-    // }
 }
 
 .slider {
@@ -223,7 +208,7 @@
 }
 
 .section-title {
-  font-size: 36px;
+  font-size: $font-subtitle-page;
   font-weight: 600;
   position: relative;
   margin: 0 auto $margin-section-bottom auto;
@@ -272,14 +257,9 @@
       left: 40px;
     }
   }
-
-  .offer-specification {
-    font-size: 18px;
-    padding: 20px 40px 50px 40px;
-  }
 }
 
-@include media(md) {
+@include media(lg) {
   .offer__title {
     padding-left: 75px;
     font-size: 22px;

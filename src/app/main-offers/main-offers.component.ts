@@ -50,7 +50,6 @@ export class MainOffersComponent implements OnInit {
 
   smoothScroll(id){
     let destinationId = `#acc${id}`
-    console.log(destinationId);
     const toTop = 120;
     $('html, body').animate({
       scrollTop: $(destinationId).offset().top-toTop

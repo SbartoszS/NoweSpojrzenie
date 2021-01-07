@@ -41,13 +41,13 @@
 
 .course {
   padding: 50px 0;
-  font-size: $font-subtitle-page;
-  text-transform: uppercase;
-
+ 
   &__title {
     position: relative;
     font-weight: 600;
     margin-bottom: 60px;
+    font-size: $font-subtitle-page;
+    text-transform: uppercase;
 
     &::after {
       position: absolute;
@@ -68,7 +68,7 @@
 }
 
 .section__title {
-  font-size: 24px;
+  font-size: $font-subtitle-page;
   font-weight: bold;
   position: relative;
   margin: 60px auto;
@@ -144,8 +144,8 @@
   }
 
   &__text {
-    padding: 15px 60px;
-    font-size: 18px;
+    font-size: $font-small;
+    padding: 10px 15px;
      border-bottom: 4px solid $color-main;
     box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
@@ -164,10 +164,15 @@
   }
 }
 
-@include media(md) {
-  .size {
-    font-size: 43px;
+@include media(lg) {
 
+  .course__title {
+    font-size: 40px;
+  }
+
+  .card__text{
+    font-size: $font-normal;
+    padding: 20px 75px 50px 75px;
   }
 }
 

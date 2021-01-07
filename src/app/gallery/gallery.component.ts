@@ -18,7 +18,8 @@ export class GalleryComponent implements OnInit {
     lightbox.option({
       disableScrolling: true,
       wrapAround: true,
-      showImageNumberLabel: false
+      showImageNumberLabel: false,
+      alwaysShowNavOnTouchDevices: true
     });
 
     this.httpService.getAll().subscribe((data: any) => {

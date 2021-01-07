@@ -1,11 +1,11 @@
 @import 'variables';
 
 .offers-description {
-  margin-top: 100px;
+  margin-top: $margin-section;
 }
 
 .single-offer {
-  padding-bottom: 100px;
+  padding-bottom: $margin-section-bottom;
   display: flex;
   justify-content: center;
 }
@@ -137,8 +137,8 @@
     &__drag
     {
         position: absolute;
-        left: 49.85%;
-        width: 3px;
+        left: 50%;
+        // width: 3px;
         height: 200px;
         background: transparent;
         pointer-events: none;
@@ -226,7 +226,7 @@
   font-size: 36px;
   font-weight: 600;
   position: relative;
-  margin: 60px auto;
+  margin: 0 auto $margin-section-bottom auto;
   text-align: center;
 
   &::after {

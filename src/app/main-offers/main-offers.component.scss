@@ -244,9 +244,10 @@
   padding: 50px 20px;
   &__titles{
     flex-basis: 50%;
-    padding: 10px;
+    padding: 5px;
     cursor: pointer;
     letter-spacing: 2px;
+    margin-bottom: 0;
   }
 }
 

@@ -33,12 +33,6 @@
   background-size: cover;
 }
 
-// .size {
-//   font-size: 25px;
-//   font-weight: 600;
-//   text-transform: uppercase;
-// }
-
 .course {
   padding: 50px 0;
  
@@ -178,4 +172,8 @@
 
 .move{
   transform: rotate(180deg);
+}
+
+.lastAccordion{
+  padding: 0;
 }

@@ -36,10 +36,7 @@ export class MainOffersComponent implements OnInit {
 
   switcharrow(name) {
     const nameS = `a${name}`;
-    console.log(nameS);
-    
     const arr1 = document.querySelector(`.${nameS}`);
-    console.log(arr1);
     arr1.classList.toggle("move");
   }
 

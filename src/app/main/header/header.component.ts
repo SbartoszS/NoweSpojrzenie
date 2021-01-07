@@ -12,8 +12,11 @@ export class HeaderComponent {
 
   windowChangeSize: number = 992
   openNav(event: any) {
-    if (window.innerWidth > this.windowChangeSize) { }
-    else {
+    if (window.innerWidth > this.windowChangeSize) {
+      return;
+    }
+    console.log(event.target);
+    if ($(event.target).hasClass("dropdown-item") || $(event.target).hasClass("nav-link") || $(event.target).hasClass("navbar-toggler")) {
       $('.open-button').toggle();
       $("body").toggleClass("fixed");
       $('.mobile-menu').toggleClass('open');

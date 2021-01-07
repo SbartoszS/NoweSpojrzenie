@@ -25,7 +25,7 @@
     </div>
 </header>
 
-<nav class="navbar navbar-expand-lg justify-content-between border-bottom sticky-top py-2">
+<nav class="navbar navbar-expand-lg justify-content-between border-bottom sticky-top py-2" (click)="openNav($event)">
     <div class="container-fluid container-lg">
         <a class="navbar-brand" href="#">
             <img src="./assets/img/logo-test.png" alt="logo" class="d-inline-block align-middle logo-nav mr-2" /></a>
@@ -33,7 +33,7 @@
             <h3 class="logo-title">Nowe Spojrzenie</h3>
             <h4 class="logo-subtitle">Stylizacja rzęs - Paulina Rusak</h4>
         </div>
-        <button class="navbar-toggler open-button p-0" type="button" (click)="openNav($event)">
+        <button class="navbar-toggler open-button p-0" type="button">
             <span><img class="icon--big" src="./assets/icons/bars_i.png" alt="menu open"></span>
         </button>
 
@@ -46,10 +46,10 @@
                     <a class="nav-link" href="#">O nas <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <div class="nav-link-d dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Oferta
-                    </a>
+                    </div>
                     <div class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" [routerLink]="['/oferta']" [queryParams]="{offer:'rzesy'}">Pielęgnacja
                             rzęs</a>
@@ -70,7 +70,7 @@
                     <a class="nav-link" [routerLink]="['/kontakt']">Kontakt</a>
                 </li>
             </ul>
-            <button class="navbar-toggler close-button" type="button" (click)="openNav($event)">
+            <button class="navbar-toggler close-button" type="button">
                 <span><img class="icon--big" src="./assets/icons/close_i.png" alt="Menu close button"></span>
             </button>
         </div>

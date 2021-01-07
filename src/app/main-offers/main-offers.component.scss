@@ -23,9 +23,7 @@
 
 .offer {
   text-align: center;
-
   &__title {
-    text-align: left;
     padding-top: 10px;
     padding-left: 20px;
     text-transform: uppercase;
@@ -39,7 +37,8 @@
       height: 1px;
       bottom: -5px;
       margin: 0 auto;
-      left: 20px;
+      left: 0;
+      right: 0;
       width: 85px;
       background: $color-second;
       filter: blur(1px);
@@ -271,13 +270,7 @@
 
 @include media(sm) {
   .offer__title {
-
-    padding-left: 40px;
     font-size: 20px;
-
-    &::after {
-      left: 40px;
-    }
   }
 
   .title-container__titles {
@@ -293,12 +286,7 @@
 
 @include media(lg) {
   .offer__title {
-    padding-left: 75px;
     font-size: 22px;
-
-    &::after {
-      left: 75px;
-    }
   }
 
   .offer-specification {

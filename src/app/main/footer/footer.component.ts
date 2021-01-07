@@ -14,7 +14,7 @@ export class FooterComponent implements OnInit {
   }
 
 
-  scrollToTop(){
+  scrollToTop() {
     $('html, body').animate({
       scrollTop: 0
     }, 1000)
@@ -22,8 +22,13 @@ export class FooterComponent implements OnInit {
 
   @HostListener('window:scroll')
   onWindowScroll() {
-    if   (window.pageYOffset >= 300) $('.return-top').fadeIn(200);
-    else $('.return-top').fadeOut(200);
+    let windowPos = $(window).scrollTop();
+    if (windowPos >= 200) {
+      $('.return-top').fadeIn(200);
+    }
+    else {
+      $('.return-top').fadeOut(200);
+    }
   }
 
 }

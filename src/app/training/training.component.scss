@@ -33,17 +33,20 @@
   background-size: cover;
 }
 
-.size {
-  font-size: 25px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
+// .size {
+//   font-size: 25px;
+//   font-weight: 600;
+//   text-transform: uppercase;
+// }
 
 .course {
   padding: 50px 0;
+  font-size: $font-subtitle-page;
+  text-transform: uppercase;
 
   &__title {
     position: relative;
+    font-weight: 600;
     margin-bottom: 60px;
 
     &::after {
@@ -155,10 +158,6 @@
 
 
 @include media(sm) {
-  .size {
-    font-size: 32px;
-    font-weight: bold;
-  }
 
   .course__description {
     font-size: 18px;

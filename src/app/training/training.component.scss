@@ -28,7 +28,7 @@
   position: relative;
   height: 450px;
   z-index: 0;
-  background-image: url(src/assets/img/tr-fluid-img-small.png);
+  background-image: url(~src/assets/img/tr-fluid-img-small.png);
   background-position: center;
   background-size: cover;
 }
@@ -101,7 +101,7 @@
   background-position: center;
   background-size: cover;
   z-index: 0;
-  background-image: url('src/assets/img/oko-harmonijka.png');
+  background-image: url('~src/assets/img/oko-harmonijka.png');
 
   &__content {
     height: 100%;

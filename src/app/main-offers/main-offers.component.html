@@ -19,12 +19,12 @@
   </ng-template>
   <ng-template #contentTitle>
     <div class="container">
-      <h2 class="section-title">{{titlesList?.title}}</h2>
-      <p class="section-title__description">{{titlesList?.description}}</p>
-      <p class="section-title__description ">{{titlesList?.description}}</p>
+      <h2 class="section-title">{{titlesList?.title_offer}}</h2>
+      <p class="section-title__description">{{titlesList?.description_offer}}</p>
+      <p class="section-title__description ">Zarezerwuj wizyte: 797-723-557 </p>
       <div class="title-container">
         <p class="title-container__titles" (click)="smoothScroll(item.id)" *ngFor='let item of offersList'>
-          {{item.title}}</p>
+          {{item.title_mainoffer}}</p>
       </div>
     </div>
   </ng-template>
@@ -32,7 +32,6 @@
   <ng-template #contentAccordion>
     <div class="container">
       <div class="single-offer" *ngFor='let item of offersList; let i = index'>
-        {{item.accordion_collapse}}
         <div class="col-12 col-lg-11">
           <div class="accordion" id="acc{{i+1}}">
             <div class="card">
@@ -40,22 +39,22 @@
               <div data-toggle="collapse" attr.data-target="#collapse{{i+1}}" aria-expanded="true"
                 aria-controls="collapse{{i+1}}" (click)='switcharrow(i+1)'>
                 <div class="offer">
-                  <p class="offer__title">{{item.title}}</p>
+                  <p class="offer__title">{{item.title_mainoffer}}</p>
                   <img src="./assets/img/arrow-icon-small.png" class="a{{i+1}} arrow-things" alt="arrow icon">
                 </div>
               </div>
               <div id="collapse{{i+1}}" class="collapse" data-parent="#acc{{i+1}}">
                 <div class="offer-specification">
-                  <p>{{item.description_par1}}</p>
-                  <p>{{item.description_par2}}</p>
-                  <p>{{item.description_par3}}</p>
+                  <p>{{item.description_part1_mainoffer}}</p>
+                  <p>{{item.description_part2_mainoffer}}</p>
+                  <p>{{item.description_part3_mainoffer}}</p>
                 </div>
               </div>
             </div>
             <div class="wrapper-bottom wrapper_slider{{i+1}}">
               <div class="comparision">
-                <div class="comparision__img-1" [style.backgroundImage]="'url('+item.url_imgBefore+')'"></div>
-                <div class="comparision__img-2" [style.backgroundImage]="'url('+item.url_imgAfter+')'"></div>
+                <div class="comparision__img-1" [style.backgroundImage]="'url('+item.url_imgbefore_mainoffer.guid+')'"></div>
+                <div class="comparision__img-2" [style.backgroundImage]="'url('+item.url_imgafter_mainoffer.guid+')'"></div>
               </div>
               <div class="slider slider{{i+1}}">
                 <div class="slider__drag">

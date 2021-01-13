@@ -1,5 +1,5 @@
 export interface OfferTitle {
-  title : string;
-  category : string;
-  description : string;
+  title_offer : string;
+  category_offer : string;
+  description_offer : string;
 }

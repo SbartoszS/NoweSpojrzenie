@@ -1,5 +1,5 @@
-import { HttpService, Gallery } from './httpService.service';
-export { HttpService, Gallery } from './httpService.service';
+import { HttpService } from './httpService.service';
+export { HttpService } from './httpService.service';
 
 
 

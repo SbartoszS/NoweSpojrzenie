@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './main/header/header.component';
 import { FooterComponent } from './main/footer/footer.component';
@@ -18,7 +18,7 @@ import { PricelistComponent } from './pricelist/pricelist.component';
 import { TrainingComponent } from './training/training.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { MainOffersComponent } from './main-offers/main-offers.component';
-
+import {AuthInterceptorInterceptor} from './auth-interceptor.interceptor'
 
 
 @NgModule({
@@ -44,7 +44,11 @@ import { MainOffersComponent } from './main-offers/main-offers.component';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [HttpService],
+  providers: [HttpService,    {
+    provide: HTTP_INTERCEPTORS,
+    useClass: AuthInterceptorInterceptor,
+    multi: true
+}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

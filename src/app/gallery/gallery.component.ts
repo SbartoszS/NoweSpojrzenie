@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { HttpService, Gallery } from '../../shared';
-
+import { HttpService } from '../../shared';
+import { Gallery } from '../models/Gallery'
+import { GalleryImages } from '../models/GalleryImages';
 declare var lightbox: any;
 
 @Component({
@@ -10,11 +11,39 @@ declare var lightbox: any;
   styleUrls: ['./gallery.component.scss'],
 })
 export class GalleryComponent implements OnInit {
-  images$: Observable<Gallery[]>;
+  images$: GalleryImages[];
 
   constructor(private httpService: HttpService) { }
 
+
+
+
   ngOnInit(): void {
+
+    function flattenGallery(data) {
+      let combineGalleries = [];
+      let galleriesLength = Object.keys(data).length;
+      
+      if (galleriesLength > 1) {
+
+        for (let index = 0; index < galleriesLength; index++) {
+          combineGalleries.push(data[index].imageurl)
+        }
+
+        let flatGallery = Array.prototype.concat.apply([], combineGalleries);
+        return flatGallery;
+      } 
+      
+      if(galleriesLength == 1) {
+        return data[0].imageurl;
+      }
+      if(!galleriesLength) {
+        return []
+      }
+    }
+
+
+
     lightbox.option({
       disableScrolling: true,
       wrapAround: true,
@@ -22,8 +51,8 @@ export class GalleryComponent implements OnInit {
       alwaysShowNavOnTouchDevices: true
     });
 
-    this.httpService.getAll().subscribe((data: any) => {
-      this.images$ = data;
+    this.httpService.getAll().subscribe(data => {     
+      this.images$ = flattenGallery(data);
     });
   }
 }

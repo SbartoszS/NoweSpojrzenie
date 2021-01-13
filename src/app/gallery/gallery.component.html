@@ -20,8 +20,8 @@
                 </div>
                 <div class="card-columns">
                     <div class="card" *ngFor="let image of images$">
-                        <a [attr.href]="image.imageUrl" data-lightbox="image-1" class="img-fluid">
-                            <img [attr.src]="image.imageUrl" class="card-img-top gallery__img">
+                        <a [attr.href]="image.guid" data-lightbox="image-1" class="img-fluid">
+                            <img [attr.src]="image.guid" class="card-img-top gallery__img">
                         </a>
                     </div>
                 </div>

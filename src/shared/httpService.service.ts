@@ -1,48 +1,38 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import {SingleOffer} from '../app/models/SingleOffer'
 import {OfferTitle} from '../app/models/OfferTitle'
+import {PriceList} from '../app/models/PriceList'
+import {Gallery} from '../app/models/Gallery'
 
-export interface Gallery {
-  id: number;
-  imageUrl: string;
-}
 
-export interface PriceList {
-  id: number;
-  name: string,
-  price: number,
-  supplementPrice: number,
-  categories: string,
-  double: boolean
-}
 
 @Injectable()
 export class HttpService {
+  // httpHeaders = new HttpHeaders()
+  // .set('Authorization','Bearer 8cfaf4cfbbd5abe6e3085b92ac5387e7ca73588ab0ef2f135f46b96821a7bc99')
 
   constructor(private http: HttpClient) { }
 
-  getAll(): Observable<Gallery[]> {
-    return this.http.get<Gallery[]>('./assets/gallery.json');
-  }
-
-  getAllPrice(): Observable<PriceList[]> {
-    return this.http.get<PriceList[]>('./assets/price-list.json');
+  getAll(): Observable<Gallery> {
+    // return this.http.get<Gallery>('http://localhost/wordpress/wp-json/wp/v2/gallery', { headers: this.httpHeaders });
+    return this.http.get<Gallery>('http://localhost/wordpress/wp-json/wp/v2/gallery');
   }
 
   getByCategoryPrice(category: string): Observable<PriceList[]> {
-    return this.http.get<PriceList[]>('./assets/price-list.json').pipe(
-      map(products => products.filter(p => p.categories.includes(category))));
+    return this.http.get<PriceList[]>('http://localhost/wordpress/wp-json/wp/v2/pricelist').pipe(
+      map(products => products.filter(p => p.category_pricelist.includes(category))));
   }
 
   getAllOffersByCategory(category: string): Observable<SingleOffer[]> {
-    return this.http.get<SingleOffer[]>('./assets/offerList.json').pipe(
-      map(list => list.filter(p => p.category.includes(category))));
+    return this.http.get<SingleOffer[]>('http://localhost/wordpress/wp-json/wp/v2/mainoffer').pipe(
+      map(list => list.filter(p => p.category_mainoffer.includes(category))));
   }
   getAllOffersTitleByCategory(category: string): Observable<OfferTitle[]> {
-    return this.http.get<OfferTitle[]>('./assets/offerTitle.json').pipe(
-      map(data => data.filter(p => p.category.includes(category))));
+    return this.http.get<OfferTitle[]>('http://localhost/wordpress/wp-json/wp/v2/offerstitle').pipe(
+      map(data => data.filter(p => p.category_offer.includes(category))));
   }
+
 }

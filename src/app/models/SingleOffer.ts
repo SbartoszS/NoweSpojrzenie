@@ -1,9 +1,9 @@
 export interface SingleOffer{
-  title : string,
-  category: string,
-  description_par1 : string,
-  description_par2 : string,
-  description_par3 : string,
-  url_imgBefore : string,
-  url_imgAfter : string,
+  title_mainoffer : string,
+  category_mainoffer: string,
+  description_par1_mainoffer : string,
+  description_par2_mainoffer : string,
+  description_par3_mainoffer : string,
+  url_imgbefore_mainoffer : { guid : string },
+  url_imgafter_mainoffer : { guid : string} ,
 }

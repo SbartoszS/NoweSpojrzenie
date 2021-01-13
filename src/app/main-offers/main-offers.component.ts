@@ -1,5 +1,5 @@
 import { ViewportScroller } from '@angular/common';
-import {Component, HostListener, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { HttpService } from 'src/shared';
 import { OfferTitle } from '../models/OfferTitle';
@@ -16,21 +16,23 @@ export class MainOffersComponent implements OnInit {
   offersList: SingleOffer[];
   category;
   titlesList: OfferTitle;
-  constructor(private httpService: HttpService, private route: ActivatedRoute, private viewPortScroller:ViewportScroller) { }
- 
+  constructor(private httpService: HttpService, private route: ActivatedRoute, private viewPortScroller: ViewportScroller) { }
+
 
   ngOnInit(): void {
     this.route.queryParams.subscribe((params: Params) => {
       this.category = params.offer;
       this.offersList = null;
       this.titlesList = null;
-      this.httpService.getAllOffersByCategory(this.category).subscribe(data => {
-        this.offersList = data;        
-      });
+ 
+        this.httpService.getAllOffersByCategory(this.category).subscribe(data => {
+          this.offersList = data;
+        });
+     
       this.httpService.getAllOffersTitleByCategory(this.category).subscribe(data => {
         this.titlesList = data[0];
       });
-     })
+    })
 
   }
 
@@ -48,12 +50,12 @@ export class MainOffersComponent implements OnInit {
     $(`.wrapper_${key} .comparision__img-2`).css("width", sliderValue + "%");
   }
 
-  smoothScroll(id){
+  smoothScroll(id) {
     let destinationId = `#acc${id}`
     const toTop = 120;
     $('html, body').animate({
-      scrollTop: $(destinationId).offset().top-toTop
+      scrollTop: $(destinationId).offset().top - toTop
     }, 1000)
   }
-  
+
 }

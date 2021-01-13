@@ -95,13 +95,13 @@
     }
 
     &::before {
-      background-image: url('/src/assets/img/greenLeaf.png');
+      background-image: url('src/assets/img/greenLeaf.png');
       bottom: -8%;
       right: -1%;
     }
 
     &::after {
-      background-image: url('/src/assets/img/greenLeaf.png');
+      background-image: url('src/assets/img/greenLeaf.png');
       transform: scale(1, -1);
       top: -6%;
       right: -3%;

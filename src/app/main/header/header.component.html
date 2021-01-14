@@ -13,7 +13,7 @@
                 </div>
                 <div class="col-12 col-sm-auto col-lg-6 py-1 text-sm-right">
                     <span class="check-us">Obserwuj nas</span>
-                    <a class="icon-link" href="https://www.facebook.com/" target="_blank">
+                    <a class="icon-link" href="https://www.facebook.com/nowespojrzenierzesy" target="_blank">
                         <img class="icon icon--big" src="./assets/icons/facebook_i.png" alt="Facebook" />
                     </a>
                     <a class="icon-link" href="https://www.instagram.com/" target="_blank">
@@ -27,27 +27,32 @@
 
 <nav class="navbar navbar-expand-lg justify-content-between border-bottom sticky-top py-2" (click)="openNav($event)">
     <div class="container-fluid container-lg">
-        <a class="navbar-brand" href="#">
-            <img src="./assets/img/logo-test.png" alt="logo" class="d-inline-block align-middle logo-nav mr-2" /></a>
-        <div class="logo-name">
-            <h3 class="logo-title">Nowe Spojrzenie</h3>
-            <h4 class="logo-subtitle">Stylizacja rzęs - Paulina Rusak</h4>
-        </div>
-        <button class="navbar-toggler open-button p-0" type="button">
-            <span><img class="icon--big" src="./assets/icons/bars_i.png" alt="menu open"></span>
+        <header>
+            <div class="container-logo">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/img/logo-test.png" alt="logo"
+                        class="d-inline-block align-middle logo-nav mr-2" /></a>
+                <div class="logo-name">
+                    <h3 class="logo-title">Nowe Spojrzenie</h3>
+                    <h4 class="logo-subtitle">Stylizacja rzęs - Paulina Rusak</h4>
+                </div>
+            </div>
+        </header>
+        <button class="navbar-toggler open-button p-0" type="button" name="open menu">
+            <span><img class="icon--big" src="./assets/icons/bars_i.png" alt="Otwórz menu"></span>
         </button>
 
         <div class="collapse navbar-collapse d-flex flex-column flex-lg-row justify-content-lg-end mobile-menu scrollable-menu p-3 p-lg-0"
             id="navbarSupportedContent" role="menu">
-            <a class="navbar-brand mobile-logo" href="#">
-                <img src="./assets/img/logo-test.png" alt="logo" class="d-inline-block align-middle logo-nav" /></a>
+            <a class="navbar-brand mobile-logo" [routerLink]="['/onas']">
+                <img src="./assets/img/logo-test.png" alt="Logo" class="d-inline-block align-middle logo-nav" /></a>
             <ul class="navbar-nav align-self-stretch">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">O nas <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" [routerLink]="['/onas']">O nas</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <div class="nav-link-d dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="nav-link-d dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
                         Oferta
                     </div>
                     <div class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdown">
@@ -70,8 +75,8 @@
                     <a class="nav-link" [routerLink]="['/kontakt']">Kontakt</a>
                 </li>
             </ul>
-            <button class="navbar-toggler close-button" type="button">
-                <span><img class="icon--big" src="./assets/icons/close_i.png" alt="Menu close button"></span>
+            <button class="navbar-toggler close-button" type="button" name="close menu">
+                <span><img class="icon--big" src="./assets/icons/close_i.png" alt="Zamknij menu"></span>
             </button>
         </div>
         <div class="collapse navbar-collapse overlay">

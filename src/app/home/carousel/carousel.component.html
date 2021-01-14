@@ -1,12 +1,11 @@
 <div class="container-fluid container-lg">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active "></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner con">
-
       <div class="carousel-item active one ">
         <div class="hero-shadow"></div>
         <div class="row h-100 flex-changer">
@@ -15,22 +14,22 @@
               <h2 class="description__title">Szkolenia</h2>
               <ul class="description__list">
                 <li class="description__item">
-                  <img class="description__img" src="./assets/img/white-small-check.png" />
+                  <img class="description__img" src="./assets/img/white-small-check.png" alt="check" />
                   z metody objętościowej 1:1
                 </li>
                 <li class="description__item">
-                  <img class="description__img" src="./assets/img/white-small-check.png" />
+                  <img class="description__img" src="./assets/img/white-small-check.png" alt="check" />
                   z metody Light Volume 2D-5D
                 </li>
                 <li class="description__item">
-                  <img class="description__img" src="./assets/img/white-small-check.png" />
+                  <img class="description__img" src="./assets/img/white-small-check.png" alt="check" />
                   z metody Mega Volume 5D-10D
                 </li>
               </ul>
             </div>
           </div>
           <div class="col-12 col-sm-6 carousel-flex">
-            <button class="main-button">Czytaj więcej</button>
+            <button class="main-button" name="read more" [routerLink]="['/szkolenia']">Czytaj więcej</button>
           </div>
         </div>
       </div>
@@ -40,7 +39,7 @@
         <div class="row h-100 flex-changer">
           <div class="col-12 col-sm-6 carousel-flex ">
             <div class="description">
-              <h1 class="description__title">Oferta</h1>
+              <h2 class="description__title">Oferta</h2>
               <ul class="description__list">
                 <li class="description__item"><img class="description__img" src="./assets/img/white-small-check.png"
                     alt="check" />
@@ -55,7 +54,8 @@
             </div>
           </div>
           <div class="col-12 col-sm-6 carousel-flex">
-            <button class="main-button">Czytaj więcej</button>
+            <button class="main-button" name="read more" [routerLink]="['/oferta']"
+              [queryParams]="{offer:'rzesy'}">Czytaj więcej</button>
           </div>
         </div>
       </div>
@@ -65,7 +65,7 @@
         <div class="row h-100 flex-changer">
           <div class="col-12 col-sm-6 carousel-flex">
             <div class="description">
-              <h1 class="description__title">Promocje</h1>
+              <h2 class="description__title">Promocje</h2>
               <p class="promo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ullam
                 pariatur atque hic consequatur quibusdam totam est error quidem. Lorem ipsum dolor sit amet consectetur
                 adipisicing elit. Tenetur atque accusamus!
@@ -74,7 +74,7 @@
           </div>
           <div class="col-12 col-sm-6 carousel-flex">
             <div class="fb-icon-container">
-              <a class="mr-2 ff" href="https://www.facebook.com/" target="_blank">
+              <a class="mr-2" href="https://www.facebook.com/nowespojrzenierzesy" target="_blank">
                 <img class="facebook-button" src="./assets/icons/facebook_i.png" alt="Facebook" />
               </a>
             </div>

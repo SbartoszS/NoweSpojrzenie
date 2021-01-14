@@ -41,6 +41,12 @@ text-decoration: none;
   background-color: $color-second;
 }
 
+.container-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .logo-nav {
   width: 100px;
 }

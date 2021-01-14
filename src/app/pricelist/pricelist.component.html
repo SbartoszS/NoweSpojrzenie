@@ -1,25 +1,29 @@
 <section class="price-list">
-
+    <div class="a">N</div>
     <div class="container">
-        <div class="leaf-title">
-            <div class="leaf-title__leaf">
-                <h1 class="leaf-title__title">Cennik</h1>
+        <header>
+            <div class="leaf-title">
+                <div class="leaf-title__leaf">
+                    <h1 class="leaf-title__title">Cennik</h1>
+                </div>
             </div>
-        </div>
+        </header>
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-10">
                 <div class="table">
-                    <div class="table-header">
-                        <h3 class="table-header__title">Aplikacja rzęs</h3>
-                        <div class="row">
-                            <div class="col-6">
-                                <h4 class="table-header__subtitle">Zabieg</h4>
-                            </div>
-                            <div class="col-6">
-                                <h4 class="table-header__subtitle">Cena</h4>
+                    <header>
+                        <div class="table-header">
+                            <h3 class="table-header__title">Aplikacja rzęs</h3>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h4 class="table-header__subtitle">Zabieg</h4>
+                                </div>
+                                <div class="col-6">
+                                    <h4 class="table-header__subtitle">Cena</h4>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </header>
 
                     <div class="table-content" *ngFor="let lashe of lashes$">
                         <div class="row">
@@ -28,26 +32,29 @@
                             </div>
 
                             <div class="col-6">
-                                <p class="table-content__price"><strong>{{(lashe?.double_pricelist == 1) ? lashe?.price_pricelist +
+                                <p class="table-content__price"><strong>{{(lashe?.double_pricelist == 1) ?
+                                        lashe?.price_pricelist +
                                         assumption +
-                                        lashe?.supplementprice_pricelist + supplement : lashe?.price_pricelist + " zł"}}</strong></p>
-
+                                        lashe?.supplementprice_pricelist + supplement : lashe?.price_pricelist + "
+                                        zł"}}</strong></p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="table">
-                    <div class="table-header">
-                        <h3 class="table-header__title">Aplikacja brwi</h3>
-                        <div class="row">
-                            <div class="col-6">
-                                <h4 class="table-header__subtitle">Zabieg</h4>
-                            </div>
-                            <div class="col-6">
-                                <h4 class="table-header__subtitle">Cena</h4>
+                    <header>
+                        <div class="table-header">
+                            <h3 class="table-header__title">Aplikacja brwi</h3>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h4 class="table-header__subtitle">Zabieg</h4>
+                                </div>
+                                <div class="col-6">
+                                    <h4 class="table-header__subtitle">Cena</h4>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </header>
                     <div class="table-content" *ngFor="let eyebrown of eyebrows$">
                         <div class="row">
                             <div class="col-6">
@@ -55,10 +62,12 @@
                             </div>
 
                             <div class="col-6">
-                                <p class="table-content__price"><strong>{{(eyebrown.double_pricelist == 1) ? eyebrown.price_pricelist +
+                                <p class="table-content__price"><strong>{{(eyebrown.double_pricelist == 1) ?
+                                        eyebrown.price_pricelist +
                                         assumption
                                         +
-                                        eyebrown.supplementprice_pricelist + supplement : eyebrown.price_pricelist + " zł"}}</strong></p>
+                                        eyebrown.supplementprice_pricelist + supplement : eyebrown.price_pricelist + "
+                                        zł"}}</strong></p>
                             </div>
                         </div>
                     </div>

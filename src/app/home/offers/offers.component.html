@@ -1,13 +1,13 @@
 <section class="offers">
-  <h2 class="offers__title">W naszej ofercie znajdziesz</h2>
+  <header>
+    <h2 class="offers__title">W naszej ofercie znajdziesz</h2>
+  </header>
   <div class="container">
     <div class="row display-row">
-
       <div class="col-md-6 col-lg-5 py-4">
         <div class="main-ib radius">
           <div class="main-ib__border">
             <p class="main-ib__title">Pielęgnacja rzęs</p>
-
           </div>
           <div class="main-ib__content radius py-5 px-4 ">
             <ul class="content-list__display">
@@ -22,15 +22,11 @@
               <li><img class="main-ib__img" src="./assets/img/check_i.png" alt="check" />
                 Lifting</li>
             </ul>
-
-            <button class="main-button mt-4 align-self-end" [routerLink]="['/oferta']"
-              [queryParams]="{offer:'rzesy'}">Szczegóły</button>
-
-
+            <button class="main-button mt-4 align-self-end" [routerLink]="['/oferta']" [queryParams]="{offer:'rzesy'}"
+              name="details">Szczegóły</button>
           </div>
         </div>
       </div>
-
       <div class="col-md-6 col-lg-5 py-4">
         <div class="main-ib radius">
           <div class="main-ib__border">
@@ -51,12 +47,11 @@
               <li><img class="main-ib__img" src="./assets/img/check_i.png" alt="check" />
                 Makijaż permanentny</li>
             </ul>
-            <button class="main-button mt-4" [routerLink]="['/oferta']"
-              [queryParams]="{offer:'brwi'}">Szczegóły</button>
+            <button class="main-button mt-4" [routerLink]="['/oferta']" [queryParams]="{offer:'brwi'}"
+              name="details">Szczegóły</button>
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </section>

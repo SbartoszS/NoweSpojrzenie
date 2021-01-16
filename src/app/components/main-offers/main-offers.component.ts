@@ -1,7 +1,7 @@
 import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
-import { HttpService } from 'src/shared';
+import { HttpService } from 'src/shared/service/index';
 import { OfferTitle } from '../../../shared/models/OfferTitle';
 import { SingleOffer } from '../../../shared/models/SingleOffer';
 
@@ -24,13 +24,13 @@ export class MainOffersComponent implements OnInit {
       this.category = params.offer;
       this.offersList = null;
       this.titlesList = null;
- 
-        this.httpService.getAllOffersByCategory(this.category).subscribe(data => {
-          this.offersList = data;
-          console.log(data);
-          
-        });
-     
+
+      this.httpService.getAllOffersByCategory(this.category).subscribe(data => {
+        this.offersList = data;
+        console.log(data);
+
+      });
+
       this.httpService.getAllOffersTitleByCategory(this.category).subscribe(data => {
         this.titlesList = data[0];
       });

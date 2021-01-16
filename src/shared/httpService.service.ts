@@ -11,13 +11,10 @@ import {Gallery} from '../app/models/Gallery'
 
 @Injectable()
 export class HttpService {
-  // httpHeaders = new HttpHeaders()
-  // .set('Authorization','Bearer 8cfaf4cfbbd5abe6e3085b92ac5387e7ca73588ab0ef2f135f46b96821a7bc99')
 
   constructor(private http: HttpClient) { }
 
   getAll(): Observable<Gallery> {
-    // return this.http.get<Gallery>('http://localhost/wordpress/wp-json/wp/v2/gallery', { headers: this.httpHeaders });
     return this.http.get<Gallery>('http://localhost/wordpress/wp-json/wp/v2/gallery');
   }
 

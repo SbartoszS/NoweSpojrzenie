@@ -46,11 +46,11 @@
                   <div class="offer">
                     <header>
                       <h3 class="offer__title">{{item.title_mainoffer}}</h3>
-                      <img src="./assets/img/arrow-icon-small.png" class="a{{i+1}} arrow-things" alt="arrow icon">
+                      <img src="./assets/icons/arrow-icon-small.png" class="a{{i+1}} arrow-things" alt="arrow icon">
                     </header>
                   </div>
                 </div>
-                <div id="collapse{{i+1}}" class="collapse show" data-parent="#acc{{i+1}}">
+                <div id="collapse{{i+1}}" class="collapse {{i+1 == 1 ? 'show' : ''}}" data-parent="#acc{{i+1}}">
                   <div class="offer-specification">
                     <p>{{item.description_part1_mainoffer}}</p>
                     <p>{{item.description_part2_mainoffer}}</p>

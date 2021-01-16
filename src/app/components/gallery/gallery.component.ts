@@ -52,8 +52,6 @@ export class GalleryComponent implements OnInit {
 
     this.httpService.getAll().subscribe(data => {     
       this.images$ = data;
-      console.log(data);
-      
     });
   }
 }

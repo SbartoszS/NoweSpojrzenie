@@ -21,8 +21,6 @@ export class PricelistComponent implements OnInit {
     });
     this.httpService.getByCategoryPrice(category.brwi).subscribe(data => {
      this.eyebrows$ = data; 
-     console.log(this.eyebrows$);
-         
    });
 
   }

@@ -23,13 +23,13 @@ footer {
   }
 
   &::before{
-    background-image: url('/../assets/img/leaf-small.png');
+    background-image: url('/../assets/img/leaf-small.webp');
     bottom: 0;
     right: -1%;
   }
 
   &::after{
-    background-image: url('/../assets/img/leaf-small.png');
+    background-image: url('/../assets/img/leaf-small.webp');
     transform: rotate(180deg);
     top: 2%;
     left: -1%;

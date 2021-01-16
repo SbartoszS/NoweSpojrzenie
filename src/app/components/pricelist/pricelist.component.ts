@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpService } from 'src/shared/httpService.service';
-import { category } from "../models/categoryEnum";
-import {PriceList} from "../models/PriceList"
+import { HttpService } from 'src/shared/service/httpService.service';
+import { category } from "../../models/categoryEnum";
+import {PriceList} from "../../models/PriceList"
 @Component({
   selector: 'ns-pricelist',
   templateUrl: './pricelist.component.html',

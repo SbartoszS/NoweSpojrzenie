@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
-import { HttpService } from '../../shared';
-import { Gallery } from '../models/Gallery'
-import { GalleryImages } from '../models/GalleryImages';
+import { HttpService } from '../../../shared/service/httpService.service';
+import { GalleryImages } from '../../models/GalleryImages';
 declare var lightbox: any;
 
 @Component({

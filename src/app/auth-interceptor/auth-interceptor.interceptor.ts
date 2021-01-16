@@ -10,7 +10,7 @@ import {
 import 'rxjs/add/operator/catch';
 import 'rxjs/add/operator/mergeMap';
 import { BehaviorSubject, Observable, throwError } from 'rxjs';
-import {environment} from '../environments/environment'
+import {environment} from '../../environments/environment'
 import { filter } from 'rxjs/operators';
 import { take } from 'rxjs/operators';
 import { switchMap } from 'rxjs/operators';

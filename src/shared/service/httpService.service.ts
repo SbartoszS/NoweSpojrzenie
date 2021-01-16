@@ -2,10 +2,10 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import {SingleOffer} from '../app/models/SingleOffer'
-import {OfferTitle} from '../app/models/OfferTitle'
-import {PriceList} from '../app/models/PriceList'
-import {Gallery} from '../app/models/Gallery'
+import {SingleOffer} from '../../app/models/SingleOffer'
+import {OfferTitle} from '../../app/models/OfferTitle'
+import {PriceList} from '../../app/models/PriceList'
+import {Gallery} from '../../app/models/Gallery'
 
 
 

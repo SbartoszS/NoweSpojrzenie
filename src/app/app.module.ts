@@ -1,24 +1,24 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { AppRoutingModule } from './app-routing.module';
-import { HttpClientModule } from '@angular/common/http';
-import { AppComponent } from './app.component';
-import { HeaderComponent } from './main/header/header.component';
-import { FooterComponent } from './main/footer/footer.component';
-import { OpinionComponent } from './home/opinion/opinion.component';
-import { CarouselComponent } from './home/carousel/carousel.component';
-import { AboutUsComponent } from './home/about-us/about-us.component';
-import { OffersComponent } from './home/offers/offers.component';
-import { HomeComponent } from './home/home.component';
-import { GalleryComponent } from './gallery/gallery.component';
-import { HttpService } from '../shared';
-import { McarouselComponent } from './home/mcarousel/mcarousel.component';
-import { ContactComponent } from './contact/contact.component';
-import { PricelistComponent } from './pricelist/pricelist.component';
-import { TrainingComponent } from './training/training.component';
-import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
-import { MainOffersComponent } from './main-offers/main-offers.component';
-
+import { AppRoutingModule } from './components/app-routing.module';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { AppComponent } from './components/app.component';
+import { HeaderComponent } from './components/main/header/header.component';
+import { FooterComponent } from './components/main/footer/footer.component';
+import { OpinionComponent } from './components/home/opinion/opinion.component';
+import { CarouselComponent } from './components/home/carousel/carousel.component';
+import { AboutUsComponent } from './components/home/about-us/about-us.component';
+import { OffersComponent } from './components/home/offers/offers.component';
+import { HomeComponent } from './components/home/home.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
+import { HttpService } from '../shared/service';
+import { McarouselComponent } from './components/home/mcarousel/mcarousel.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { PricelistComponent } from './components/pricelist/pricelist.component';
+import { TrainingComponent } from './components/training/training.component';
+import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.component';
+import { MainOffersComponent } from './components/main-offers/main-offers.component';
+import { AuthInterceptorInterceptor } from './auth-interceptor/auth-interceptor.interceptor'
 
 
 @NgModule({
@@ -44,7 +44,11 @@ import { MainOffersComponent } from './main-offers/main-offers.component';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [HttpService],
+  providers: [HttpService, {
+    provide: HTTP_INTERCEPTORS,
+    useClass: AuthInterceptorInterceptor,
+    multi: true
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

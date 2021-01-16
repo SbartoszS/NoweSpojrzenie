@@ -1,0 +1,86 @@
+<header (scroll)="onScrollNav($event)">
+    <div class="infobar">
+        <div class="container-fluid container-lg py-2 py-md-0">
+            <div class="row align-items-center justify-content-sm-start">
+                <div class="col-12 col-sm-auto col-lg-auto py-2 text-sm-left">
+                    <img class="icon" src="./assets/icons/white-mail.png" alt="Email" /><a a class="icon__link"
+                        href="mailto:paulinarusak99@gmail.com">paulinarusak99@gmail.com</a>
+                </div>
+                <div class="col-12 col-sm-auto col-lg-auto col-lg-auto mr-sm-auto p-0 text-sm-left">
+                    <img class="icon" src="./assets/icons/white-phone.png" alt="Phone" /><a class="icon__link"
+                        href="tel:+48 797 723 557">+48
+                        797 723 557</a>
+                </div>
+                <div class="col-12 col-sm-auto col-lg-6 py-1 text-sm-right">
+                    <span class="check-us">Obserwuj nas</span>
+                    <a class="icon-link" href="https://www.facebook.com/nowespojrzenierzesy" target="_blank"
+                        rel="noopener">
+                        <img class="icon icon--big" src="./assets/icons/facebook_i.png" alt="Facebook" />
+                    </a>
+                    <a class="icon-link" href="https://www.instagram.com/" target="_blank" rel="noopener">
+                        <img class="icon icon--big" src="./assets/icons/instagram_i.png" alt="Instagram" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<nav class="navbar navbar-expand-lg justify-content-between border-bottom sticky-top py-2" (click)="openNav($event)">
+    <div class="container-fluid container-lg">
+        <header>
+            <div class="container-logo">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/img/logo-test.webp" alt="logo"
+                        class="d-inline-block align-middle logo-nav mr-2" /></a>
+                <div class="logo-name">
+                    <h3 class="logo-title">Nowe Spojrzenie</h3>
+                    <h4 class="logo-subtitle">Stylizacja rzęs - Paulina Rusak</h4>
+                </div>
+            </div>
+        </header>
+        <button class="navbar-toggler open-button p-0" type="button" name="open menu">
+            <span><img class="icon--big" src="./assets/icons/bars_i.png" alt="Otwórz menu"></span>
+        </button>
+
+        <div class="collapse navbar-collapse d-flex flex-column flex-lg-row justify-content-lg-end mobile-menu scrollable-menu p-3 p-lg-0"
+            id="navbarSupportedContent">
+            <a class="navbar-brand mobile-logo" [routerLink]="['/onas']">
+                <img src="./assets/img/logo-test.webp" alt="Logo" class="d-inline-block align-middle logo-nav" /></a>
+            <ul class="navbar-nav align-self-stretch">
+                <li class="nav-item active">
+                    <a class="nav-link" [routerLink]="['/onas']">O nas</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <div class="nav-link-d dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Oferta
+                    </div>
+                    <div class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" [routerLink]="['/oferta']" [queryParams]="{offer:'rzesy'}">Pielęgnacja
+                            rzęs</a>
+                        <a class="dropdown-item" [routerLink]="['/oferta']" [queryParams]="{offer:'brwi'}">Pielęgnacja
+                            brwi</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/szkolenia']">Szkolenia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/cennik']">Cennik</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/galeria']">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/kontakt']">Kontakt</a>
+                </li>
+            </ul>
+            <button class="navbar-toggler close-button" type="button" name="close menu">
+                <span><img class="icon--big" src="./assets/icons/close_i.png" alt="Zamknij menu"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse overlay">
+        </div>
+    </div>
+</nav>

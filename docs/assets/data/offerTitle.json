@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "title_offer": "Przedłużanie rzęs",
+        "category_offer": "rzesy",
+        "description_offer": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur"
+    },
+    {
+        "id": 2,
+        "title_offer": "Pielęgnacja brwi",
+        "category_offer": "brwi",
+        "description_offer": "lorem lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur lorLorem ipsum dolor sit amet consectetur"
+    }
+]

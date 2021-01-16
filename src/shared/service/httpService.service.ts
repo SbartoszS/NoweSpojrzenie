@@ -15,20 +15,20 @@ export class HttpService {
   constructor(private http: HttpClient) { }
 
   getAll(): Observable<Gallery> {
-    return this.http.get<Gallery>('http://localhost/wordpress/wp-json/wp/v2/gallery');
+    return this.http.get<Gallery>('../../assets/data/gallery.json');
   }
 
   getByCategoryPrice(category: string): Observable<PriceList[]> {
-    return this.http.get<PriceList[]>('http://localhost/wordpress/wp-json/wp/v2/pricelist').pipe(
+    return this.http.get<PriceList[]>('../../assets/data/price-list.json').pipe(
       map(products => products.filter(p => p.category_pricelist.includes(category))));
   }
 
   getAllOffersByCategory(category: string): Observable<SingleOffer[]> {
-    return this.http.get<SingleOffer[]>('http://localhost/wordpress/wp-json/wp/v2/mainoffer').pipe(
+    return this.http.get<SingleOffer[]>('../../assets/data/offerList.json').pipe(
       map(list => list.filter(p => p.category_mainoffer.includes(category))));
   }
   getAllOffersTitleByCategory(category: string): Observable<OfferTitle[]> {
-    return this.http.get<OfferTitle[]>('http://localhost/wordpress/wp-json/wp/v2/offerstitle').pipe(
+    return this.http.get<OfferTitle[]>('../../assets/data/offerTitle.json').pipe(
       map(data => data.filter(p => p.category_offer.includes(category))));
   }
 

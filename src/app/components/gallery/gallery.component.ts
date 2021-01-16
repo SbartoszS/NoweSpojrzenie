@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpService } from '../../../shared/service/httpService.service';
 import { GalleryImages } from '../../../shared/models/GalleryImages';
+import { Gallery } from 'src/shared/models/Gallery';
 declare var lightbox: any;
 
 @Component({
@@ -9,7 +10,7 @@ declare var lightbox: any;
   styleUrls: ['./gallery.component.scss'],
 })
 export class GalleryComponent implements OnInit {
-  images$: GalleryImages[];
+  images$: Gallery;
 
   constructor(private httpService: HttpService) { }
 
@@ -50,7 +51,9 @@ export class GalleryComponent implements OnInit {
     });
 
     this.httpService.getAll().subscribe(data => {     
-      this.images$ = flattenGallery(data);
+      this.images$ = data;
+      console.log(data);
+      
     });
   }
 }

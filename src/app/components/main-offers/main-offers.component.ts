@@ -27,6 +27,8 @@ export class MainOffersComponent implements OnInit {
  
         this.httpService.getAllOffersByCategory(this.category).subscribe(data => {
           this.offersList = data;
+          console.log(data);
+          
         });
      
       this.httpService.getAllOffersTitleByCategory(this.category).subscribe(data => {

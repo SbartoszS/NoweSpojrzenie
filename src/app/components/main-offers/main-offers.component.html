@@ -52,18 +52,18 @@
                 </div>
                 <div id="collapse{{i+1}}" class="collapse {{i+1 == 1 ? 'show' : ''}}" data-parent="#acc{{i+1}}">
                   <div class="offer-specification">
-                    <p>{{item.description_part1_mainoffer}}</p>
-                    <p>{{item.description_part2_mainoffer}}</p>
-                    <p>{{item.description_part3_mainoffer}}</p>
+                    <p>{{item.description_par1_mainoffer}}</p>
+                    <p>{{item.description_par2_mainoffer}}</p>
+                    <p>{{item.description_par3_mainoffer}}</p>
                   </div>
                 </div>
               </div>
               <div class="wrapper-bottom wrapper_slider{{i+1}}">
                 <div class="comparision">
                   <div class="comparision__img-1"
-                    [style.backgroundImage]="'url('+item.url_imgbefore_mainoffer.guid+')'">
+                    [style.backgroundImage]="'url('+item.url_imgbefore_mainoffer+')'">
                   </div>
-                  <div class="comparision__img-2" [style.backgroundImage]="'url('+item.url_imgafter_mainoffer.guid+')'">
+                  <div class="comparision__img-2" [style.backgroundImage]="'url('+item.url_imgafter_mainoffer+')'">
                   </div>
                 </div>
                 <div class="slider slider{{i+1}}">

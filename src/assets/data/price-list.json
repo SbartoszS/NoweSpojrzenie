@@ -1,94 +1,94 @@
 [
     {
         "id": 1,
-        "name": "Metoda Classic 1:1",
-        "price": 160,
-        "supplementPrice": 120,
-        "categories": "rzesy",
-        "double": true
+        "name_pricelist": "Metoda Classic 1:1",
+        "price_pricelist": 160,
+        "supplementprice_pricelist": 120,
+        "category_pricelist": "rzesy",
+        "double_pricelist": true
     },
     {
         "id": 2,
-        "name": "Metoda 2/3D",
-        "price": 180,
-        "supplementPrice": 140,
-        "categories": "rzesy",
-        "double": true
+        "name_pricelist": "Metoda 2/3D",
+        "price_pricelist": 180,
+        "supplementprice_pricelist": 140,
+        "category_pricelist": "rzesy",
+        "double_pricelist": true
     },
     {
         "id": 3,
-        "name": "Metoda 4/6D",
-        "price": 190,
-        "supplementPrice": 150,
-        "categories": "rzesy",
-        "double": true
+        "name_pricelist": "Metoda 4/6D",
+        "price_pricelist": 190,
+        "supplementprice_pricelist": 150,
+        "category_pricelist": "rzesy",
+        "double_pricelist": true
     },
     {
         "id": 4,
-        "name": "Metoda Mega Volume 7/15D",
-        "price": 200,
-        "supplementPrice": 160,
-        "categories": "rzesy",
-        "double": true
+        "name_pricelist": "Metoda Mega Volume 7/15D",
+        "price_pricelist": 200,
+        "supplementprice_pricelist": 160,
+        "category_pricelist": "rzesy",
+        "double_pricelist": true
     },
     {
         "id": 5,
-        "name": "Zdjęcie rzęs",
-        "price": 50,
-        "categories": "rzesy"
+        "name_pricelist": "Zdjęcie rzęs",
+        "price_pricelist": 50,
+        "category_pricelist": "rzesy"
     },
     {
         "id": 6,
-        "name": "Lifting rzęs",
-        "price": 120,
-        "categories": "rzesy"
+        "name_pricelist": "Lifting rzęs",
+        "price_pricelist": 120,
+        "category_pricelist": "rzesy"
     },
     {
         "id": 7,
-        "name": "Laminacja brwi",
-        "price": 50,
-        "categories": "brwi"
+        "name_pricelist": "Laminacja brwi",
+        "price_pricelist": 50,
+        "category_pricelist": "brwi"
     },
     {
         "id": 8,
-        "name": "Laminacja brwi + farbka",
-        "price": 70,
-        "categories": "brwi"
+        "name_pricelist": "Laminacja brwi + farbka",
+        "price_pricelist": 70,
+        "category_pricelist": "brwi"
     },
     {
         "id": 9,
-        "name": "Henna pudrowa brwi z geometrią",
-        "price": 70,
-        "categories": "brwi"
+        "name_pricelist": "Henna pudrowa brwi z geometrią",
+        "price_pricelist": 70,
+        "category_pricelist": "brwi"
     },
     {
         "id": 10,
-        "name": "Henna żelowa brwi z regulacją",
-        "price": 30,
-        "categories": "brwi"
+        "name_pricelist": "Henna żelowa brwi z regulacją",
+        "price_pricelist": 30,
+        "category_pricelist": "brwi"
     },
     {
         "id": 11,
-        "name": "Henna brwi z regulacją + henna rzęs",
-        "price": 35,
-        "categories": "brwi"
+        "name_pricelist": "Henna brwi z regulacją + henna rzęs",
+        "price_pricelist": 35,
+        "category_pricelist": "brwi"
     },
     {
         "id": 12,
-        "name": "Regulacja brwi pęseta",
-        "price": 10,
-        "categories": "brwi"
+        "name_pricelist": "Regulacja brwi pęseta",
+        "price_pricelist": 10,
+        "category_pricelist": "brwi"
     },
     {
         "id": 12,
-        "name": "Wosk",
-        "price": 10,
-        "categories": "brwi"
+        "name_pricelist": "Wosk",
+        "price_pricelist": 10,
+        "category_pricelist": "brwi"
     },
     {
         "id": 13,
-        "name": "Makijaż permanentny brwi(z korekta po 5 tygodniach)",
-        "price": 500,
-        "categories": "brwi"
+        "name_pricelist": "Makijaż permanentny brwi(z korekta po 5 tygodniach)",
+        "price_pricelist": 500,
+        "category_pricelist": "brwi"
     }
 ]

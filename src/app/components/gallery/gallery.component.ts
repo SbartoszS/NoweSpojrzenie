@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpService } from '../../../shared/service/httpService.service';
-import { GalleryImages } from '../../models/GalleryImages';
+import { GalleryImages } from '../../../shared/models/GalleryImages';
 declare var lightbox: any;
 
 @Component({

@@ -2,8 +2,8 @@ import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { HttpService } from 'src/shared';
-import { OfferTitle } from '../../models/OfferTitle';
-import { SingleOffer } from '../../models/SingleOffer';
+import { OfferTitle } from '../../../shared/models/OfferTitle';
+import { SingleOffer } from '../../../shared/models/SingleOffer';
 
 declare var $: any;
 

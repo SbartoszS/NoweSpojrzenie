@@ -26,7 +26,7 @@
   &__title {
     padding-top: 10px;
     text-transform: uppercase;
-    font-size: $font-subtitle-page;
+    font-size: 18px;
     position: relative;
     margin: 40px auto;
 
@@ -221,7 +221,7 @@
 }
 
 .section-title {
-  font-size: 18px;
+  font-size: $font-subtitle-page;
   font-weight: 600;
   position: relative;
   margin: 0 auto $margin-section-bottom auto;

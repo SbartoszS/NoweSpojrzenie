@@ -11,14 +11,15 @@ import { AboutUsComponent } from './components/home/about-us/about-us.component'
 import { OffersComponent } from './components/home/offers/offers.component';
 import { HomeComponent } from './components/home/home.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
-import { HttpService } from '../shared';
+import { HttpService } from '../shared/service';
 import { McarouselComponent } from './components/home/mcarousel/mcarousel.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { PricelistComponent } from './components/pricelist/pricelist.component';
 import { TrainingComponent } from './components/training/training.component';
 import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.component';
 import { MainOffersComponent } from './components/main-offers/main-offers.component';
-import {AuthInterceptorInterceptor} from './auth-interceptor/auth-interceptor.interceptor'
+import { AuthInterceptorInterceptor } from './auth-interceptor/auth-interceptor.interceptor'
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 
 @NgModule({
@@ -44,11 +45,15 @@ import {AuthInterceptorInterceptor} from './auth-interceptor/auth-interceptor.in
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [HttpService,    {
+  providers: [HttpService, {
     provide: HTTP_INTERCEPTORS,
     useClass: AuthInterceptorInterceptor,
     multi: true
-}],
+  },
+    {
+      provide: LocationStrategy, useClass: HashLocationStrategy
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

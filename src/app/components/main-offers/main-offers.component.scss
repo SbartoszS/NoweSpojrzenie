@@ -65,7 +65,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 0;
-  background-image: url('/../assets/img/drzewo1.webp');
+  background-image: url('~src/assets/img/drzewo1.webp');
   border: 0;
   color: $color-second;
   border-top-left-radius: 15px;
@@ -94,7 +94,7 @@
   &__img-1 {
     height: 100%;
     width: 100%;
-    background-image: url('/../assets/img/test2.png');
+    background-image: url('~src/assets/img/test2.png');
     background-repeat: no-repeat;
 
   }
@@ -221,7 +221,7 @@
 }
 
 .section-title {
-  font-size: 18px;
+  font-size: $font-subtitle-page;
   font-weight: 600;
   position: relative;
   margin: 0 auto $margin-section-bottom auto;

@@ -15,7 +15,6 @@ export class HeaderComponent {
     if (window.innerWidth > this.windowChangeSize) {
       return;
     }
-    console.log(event.target);
     if ($(event.target).hasClass("dropdown-item") || $(event.target).hasClass("nav-link") || $(event.target).hasClass("navbar-toggler")) {
       $('.open-button').toggle();
       $("body").toggleClass("fixed");

@@ -25,9 +25,4 @@ export class PricelistComponent implements OnInit {
 
   }
 
-  ngAfterViewInit(): void {
-  
-    
-  }
-
 }

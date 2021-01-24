@@ -50,7 +50,7 @@ export class AuthInterceptorInterceptor implements HttpInterceptor {
           let params = {
             "token": refreshToken
           };
-          return this.http.post('http://localhost/wordpress/wp-json/api-bearer-auth/v1/tokens/refresh', params).mergeMap(
+          return this.http.post('https://nspojrzenie.pl/zaplecze00/wp-json/api-bearer-auth/v1/tokens/refresh', params).mergeMap(
             (data: any) => {
               //If reload successful update tokens
               if (data) {

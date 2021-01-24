@@ -20,6 +20,8 @@ import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.co
 import { MainOffersComponent } from './components/main-offers/main-offers.component';
 import { AuthInterceptorInterceptor } from './auth-interceptor/auth-interceptor.interceptor'
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 @NgModule({
@@ -43,7 +45,8 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [HttpService, {
     provide: HTTP_INTERCEPTORS,

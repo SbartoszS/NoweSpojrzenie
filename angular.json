@@ -44,7 +44,8 @@
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "node_modules/lightbox2/dist/js/lightbox.js",
-              "node_modules/@glidejs/glide/dist/glide.js"
+              "node_modules/@glidejs/glide/dist/glide.js",
+              "./src/app/fb.js"
             ]
           },
           "configurations": {

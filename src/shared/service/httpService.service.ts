@@ -12,8 +12,8 @@ import { Gallery } from '../models/Gallery'
 @Injectable()
 export class HttpService {
 
- url = 'https://nspojrzenie.pl/zaplecze00/wp-json/wp/v2/';
- perPage = '?per_page=100&order=asc'
+  url = 'https://nspojrzenie.pl/zaplecze00/wp-json/wp/v2/';
+  perPage = '?per_page=100&order=asc'
 
   constructor(private http: HttpClient) { }
 
@@ -30,9 +30,9 @@ export class HttpService {
     return this.http.get<SingleOffer[]>(`${this.url}mainOffer${this.perPage}`).pipe(
       map(list => list.filter(p => p.category_mainoffer.includes(category))));
   }
+
   getAllOffersTitleByCategory(category: string): Observable<OfferTitle[]> {
     return this.http.get<OfferTitle[]>(`${this.url}offerstitle${this.perPage}`).pipe(
       map(data => data.filter(p => p.category_offer.includes(category))));
   }
-
 }

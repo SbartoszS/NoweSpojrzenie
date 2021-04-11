@@ -35,4 +35,14 @@ export class HttpService {
     return this.http.get<OfferTitle[]>(`${this.url}offerstitle${this.perPage}`).pipe(
       map(data => data.filter(p => p.category_offer.includes(category))));
   }
+
+  //   getAllOffersByCategory(category: string): Observable<SingleOffer[]> {
+  //   return this.http.get<SingleOffer[]>(`../../assets/data/offerList.json`).pipe(
+  //     map(list => list.filter(p => p.category_mainoffer.includes(category))));
+  // }
+
+  // getAllOffersTitleByCategory(category: string): Observable<OfferTitle[]> {
+  //   return this.http.get<OfferTitle[]>(`../../assets/data/offerTitle.json`).pipe(
+  //     map(data => data.filter(p => p.category_offer.includes(category))));
+  // }
 }

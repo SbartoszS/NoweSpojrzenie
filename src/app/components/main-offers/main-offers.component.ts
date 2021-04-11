@@ -26,7 +26,9 @@ export class MainOffersComponent implements OnInit {
       this.titlesList = null;
 
       this.httpService.getAllOffersByCategory(this.category).subscribe(data => {
-        this.offersList = data;
+        this.offersList = data;   
+        console.log(this.offersList);
+             
       });
 
       this.httpService.getAllOffersTitleByCategory(this.category).subscribe(data => {
@@ -51,7 +53,9 @@ export class MainOffersComponent implements OnInit {
   }
 
   smoothScroll(id) {
-    let destinationId = `#acc${id}`
+    let destinationId = `#acc${id}`;
+    console.log(destinationId);
+    
     const toTop = 120;
     $('html, body').animate({
       scrollTop: $(destinationId).offset().top - toTop

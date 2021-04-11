@@ -28,27 +28,4 @@ export class McarouselComponent implements AfterViewInit {
 
     new Glide('.glide', config).mount()
   }
-
-  // ngOnInit(): void {
-
-  //   const config = {
-  //     type: 'carousel',
-  //     perView: '3',
-  //     gap: '15',
-  //     animationDuration: "1000",
-  //     autoplay: "4000",
-  //     breakpoints: {
-  //       576: {
-  //         perView: 1
-  //       },
-  //       992: {
-  //         perView: 2
-  //       },
-  //     }
-  //   }
-
-  //   new Glide('.glide', config).mount()
-
-  // }
-
 }

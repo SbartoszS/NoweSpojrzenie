@@ -18,7 +18,8 @@ import { PricelistComponent } from './components/pricelist/pricelist.component';
 import { TrainingComponent } from './components/training/training.component';
 import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.component';
 import { MainOffersComponent } from './components/main-offers/main-offers.component';
-import { AuthInterceptorInterceptor } from './auth-interceptor/auth-interceptor.interceptor'
+import { AuthInterceptorInterceptor } from './auth-interceptor/auth-interceptor.interceptor';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 
 @NgModule({
@@ -37,7 +38,7 @@ import { AuthInterceptorInterceptor } from './auth-interceptor/auth-interceptor.
     PricelistComponent,
     TrainingComponent,
     PagenotfoundComponent,
-    MainOffersComponent
+    MainOffersComponent,
   ],
   imports: [
     BrowserModule,
@@ -47,8 +48,11 @@ import { AuthInterceptorInterceptor } from './auth-interceptor/auth-interceptor.
   providers: [HttpService, {
     provide: HTTP_INTERCEPTORS,
     useClass: AuthInterceptorInterceptor,
-    multi: true
+    multi: true,
   },
+    {
+      provide: LocationStrategy, useClass: HashLocationStrategy
+    }
   ],
   bootstrap: [AppComponent]
 })

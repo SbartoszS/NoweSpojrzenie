@@ -29,6 +29,8 @@
     &__description
     {
         padding: 0 20px;
+        text-align: left;
+        text-indent: 1rem;
     }
 }
 
@@ -65,7 +67,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background-image: url('~src/assets/img/room-small.webp');
+        background-image: url('~src/assets/img/room.webp');
         background-repeat: no-repeat;
         background-size: cover;
         z-index: 99;

@@ -15,7 +15,8 @@ export class McarouselComponent implements OnInit {
       type: 'carousel',
       perView: '3',
       gap: '15',
-      animationDuration: "700",
+      animationDuration: "1000",
+      autoplay: "4000",
       breakpoints: {
         576: {
           perView: 1

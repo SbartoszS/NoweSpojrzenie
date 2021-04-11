@@ -61,6 +61,10 @@
   }
 }
 
+.ask p {
+  text-indent: 1rem;
+}
+
 .section__title {
   font-size: $font-subtitle-page;
   font-weight: bold;
@@ -140,15 +144,37 @@
     padding: 0 10px;
     margin-bottom: 1.5rem;
   }
-
-  &__text {
-    font-size: $font-small;
-    padding: 10px 15px;
-     border-bottom: 4px solid $color-main;
-    box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  }
 }
 
+.card-content {
+  font-size: $font-small;
+  padding: 10px 15px;
+  border-bottom: 4px solid $color-main;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  ol {
+    margin-left: 1.3rem;
+  }
+
+  ul{
+    margin-left: 1.3rem; 
+    list-style: inside;
+  }
+
+  li::first-letter {
+    text-transform: uppercase;
+  }
+
+  h4 {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  h5 {
+    padding: 20px 0;
+  }
+
+}
 
 .treatment-time {
   padding: 30px 0;
@@ -168,7 +194,7 @@
     font-size: 40px;
   }
 
-  .card__text{
+  .card-content{
     font-size: $font-normal;
     padding: 20px 75px 50px 75px;
   }

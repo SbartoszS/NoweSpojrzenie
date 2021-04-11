@@ -47,7 +47,7 @@
 .arrow-things {
   margin: 10px;
   border-radius: 50%;
-  transition: 0.3s ease;
+  transition: 0.7s ease;
 }
 
 .cursor-area{
@@ -74,6 +74,8 @@
   color: $color-second;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 
   &:hover .arrow-things {
     animation: pulse 2s infinite;

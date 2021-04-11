@@ -44,10 +44,10 @@
                 <div class="cursor-area" data-toggle="collapse" attr.data-target="#collapse{{i+1}}" aria-expanded="true"
                   aria-controls="collapse{{i+1}}" (click)='switcharrow(i+1)'>
                   <div class="offer">
-                    <header >
+                    <header>
                       <h3 class="offer__title">{{item.title_mainoffer}}</h3>
                       <img src="./assets/icons/arrow-icon-small.png" [ngClass]="{'move': i+1 === 1}"
-                      class="a{{i+1}} arrow-things" alt="arrow icon">
+                        class="a{{i+1}} arrow-things" alt="arrow icon">
                     </header>
                   </div>
                 </div>
@@ -57,9 +57,9 @@
                     <p>{{item.description_par2_mainoffer}}</p>
                     <p>{{item.description_par3_mainoffer}}</p>
                   </div>
+                  <div class="comparision" [style.backgroundImage]="'url('+item.url_imgafter_mainoffer.guid+')'">
+                  </div>
                 </div>
-              </div>
-              <div class="comparision" [style.backgroundImage]="'url('+item.url_imgafter_mainoffer.guid+')'">
               </div>
             </div>
           </div>

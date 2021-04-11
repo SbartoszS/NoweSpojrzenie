@@ -4,6 +4,5 @@ export interface SingleOffer{
   description_par1_mainoffer : string,
   description_par2_mainoffer : string,
   description_par3_mainoffer : string,
-  url_imgbefore_mainoffer :string,
   url_imgafter_mainoffer : string,
 }

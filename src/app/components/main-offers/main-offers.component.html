@@ -26,7 +26,7 @@
         <p class="section-title__description">{{titlesList?.description_offer}}</p>
         <p class="section-title__description ">Zarezerwuj wizyte: 797-723-557 </p>
         <div class="title-container">
-          <p class="title-container__titles" (click)="smoothScroll(item.id)" *ngFor='let item of offersList'>
+          <p class="title-container__titles" (click)="smoothScroll(i+1)" *ngFor='let item of offersList;index as i'>
             {{item.title_mainoffer}}</p>
         </div>
       </div>
@@ -41,12 +41,13 @@
             <div class="accordion" id="acc{{i+1}}">
               <div class="card">
                 <div class="hero-shadow"></div>
-                <div data-toggle="collapse" attr.data-target="#collapse{{i+1}}" aria-expanded="true"
+                <div class="cursor-area" data-toggle="collapse" attr.data-target="#collapse{{i+1}}" aria-expanded="true"
                   aria-controls="collapse{{i+1}}" (click)='switcharrow(i+1)'>
                   <div class="offer">
-                    <header>
+                    <header >
                       <h3 class="offer__title">{{item.title_mainoffer}}</h3>
-                      <img src="./assets/icons/arrow-icon-small.png" class="a{{i+1}} arrow-things" alt="arrow icon">
+                      <img src="./assets/icons/arrow-icon-small.png" [ngClass]="{'move': i+1 === 1}"
+                      class="a{{i+1}} arrow-things" alt="arrow icon">
                     </header>
                   </div>
                 </div>
@@ -58,24 +59,7 @@
                   </div>
                 </div>
               </div>
-              <div class="wrapper-bottom wrapper_slider{{i+1}}">
-                <div class="comparision">
-                  <div class="comparision__img-1" [style.backgroundImage]="'url('+item.url_imgbefore_mainoffer+')'">
-                  </div>
-                  <div class="comparision__img-2" [style.backgroundImage]="'url('+item.url_imgafter_mainoffer+')'">
-                  </div>
-                </div>
-                <div class="slider slider{{i+1}}">
-                  <div class="slider__drag">
-                    <span class="slider__circle"></span>
-                  </div>
-                  <input class="slider__input" attr.data-slide="slider{{i+1}}" type="range" min="0" max="100" value="50"
-                    (input)="progressChange($event)">
-                </div>
-              </div>
-              <div class="text-slider">
-                <p class="text-slider__before">Przed</p>
-                <p class="text-slider__after">Po</p>
+              <div class="comparision" [style.backgroundImage]="'url('+item.url_imgafter_mainoffer.guid+')'">
               </div>
             </div>
           </div>

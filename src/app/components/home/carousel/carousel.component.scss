@@ -1,5 +1,8 @@
 @import "variables";
 
+.container-fluid {
+  padding: 0;
+}
 
 .carousel-control-prev-icon {
   background-image: url("~src/assets/icons/light-arrow-left.png");

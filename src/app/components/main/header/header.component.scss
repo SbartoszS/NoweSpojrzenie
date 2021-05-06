@@ -218,6 +218,10 @@ text-decoration: none;
     display: none !important;
   }
 
+  .navbar-nav {
+    font-size: $font-small;
+  }
+
   .nav-link, .nav-link-d {
     color: $color-main;
     transition: 0.3s ease;
@@ -246,3 +250,9 @@ text-decoration: none;
   }
 
 }
+
+@include media(xl) {
+  .navbar-nav {
+    font-size: $font-normal;
+  }
+  }

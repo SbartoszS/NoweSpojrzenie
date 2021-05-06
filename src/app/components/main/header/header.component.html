@@ -50,7 +50,7 @@
                 <img src="./assets/img/logo-test.webp" alt="Logo" class="d-inline-block align-middle logo-nav" /></a>
             <ul class="navbar-nav align-self-stretch">
                 <li class="nav-item active">
-                    <a class="nav-link" [routerLink]="['/onas']">O nas</a>
+                    <a class="nav-link" [routerLink]="['/onas']" routerLinkActive="active-link">O nas</a>
                 </li>
                 <li class="nav-item dropdown">
                     <div class="nav-link-d dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -65,16 +65,20 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/szkolenia']">Szkolenia</a>
+                    <a class="nav-link" [routerLink]="['/szkolenia']" routerLinkActive="active-link">Szkolenia</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/cennik']">Cennik</a>
+                    <a class="nav-link" [routerLink]="['/cennik']" routerLinkActive="active-link">Cennik</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/galeria']">Galeria</a>
+                    <a class="nav-link" [routerLink]="['/galeria']" routerLinkActive="active-link">Galeria</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/kontakt']">Kontakt</a>
+                    <a class="nav-link" href="https://www.moment.pl/nowe-spojrzenie-stylizacja-rzes" target="_blank"
+                        rel="noopener">Rezerwacja</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/kontakt']" routerLinkActive="active-link">Kontakt</a>
                 </li>
             </ul>
             <button class="navbar-toggler close-button" type="button" name="close menu">

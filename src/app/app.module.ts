@@ -20,6 +20,8 @@ import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.co
 import { MainOffersComponent } from './components/main-offers/main-offers.component';
 import { AuthInterceptorInterceptor } from './auth-interceptor/auth-interceptor.interceptor';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { ContactDetailsComponent } from './components/contact/contact-details/contact-details.component';
+
 
 
 @NgModule({
@@ -39,6 +41,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     TrainingComponent,
     PagenotfoundComponent,
     MainOffersComponent,
+    ContactDetailsComponent,
   ],
   imports: [
     BrowserModule,

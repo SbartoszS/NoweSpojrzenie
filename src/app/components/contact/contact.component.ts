@@ -15,7 +15,5 @@ export class ContactComponent implements OnInit {
     document.querySelector('.main-button').addEventListener('click', () => {
       window.open(url)
     })
-
   }
-
 }

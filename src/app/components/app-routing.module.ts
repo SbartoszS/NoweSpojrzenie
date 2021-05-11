@@ -9,8 +9,7 @@ import { TrainingComponent } from './training/training.component';
 import { MainOffersComponent } from './main-offers/main-offers.component';
 
 const routes: Routes = [
-  // { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: '', component: HomeComponent },
+  { path: '', redirectTo: 'onas', pathMatch: 'full' },
   { path: 'onas', component: HomeComponent },
   { path: 'oferta', component: MainOffersComponent },
   { path: 'szkolenia', component: TrainingComponent },

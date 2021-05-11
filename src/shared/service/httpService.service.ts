@@ -36,7 +36,7 @@ export class HttpService {
       map(data => data.filter(p => p.category_offer.includes(category))));
   }
 
-  //   getAllOffersByCategory(category: string): Observable<SingleOffer[]> {
+  // getAllOffersByCategory(category: string): Observable<SingleOffer[]> {
   //   return this.http.get<SingleOffer[]>(`../../assets/data/offerList.json`).pipe(
   //     map(list => list.filter(p => p.category_mainoffer.includes(category))));
   // }

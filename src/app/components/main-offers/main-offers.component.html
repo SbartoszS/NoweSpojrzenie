@@ -57,7 +57,8 @@
                     <p>{{item.description_par2_mainoffer}}</p>
                     <p>{{item.description_par3_mainoffer}}</p>
                   </div>
-                  <div class="comparision" [style.backgroundImage]="'url('+item.url_imgafter_mainoffer.guid+')'">
+                  <div class="comparision">
+                    <img class="comparision__img" [src]="item.url_imgafter_mainoffer.guid" alt="Zdjęcie zabiegu">
                   </div>
                 </div>
               </div>

@@ -91,12 +91,17 @@
 
 .comparision {
   display: flex;
-  height: 300px;
+  height: auto;
   width: 100%;
 
   background-repeat: no-repeat;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+
+  &__img{
+    width: 100%;
+    height: auto;
+  }
 }
 
 .slider {

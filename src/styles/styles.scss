@@ -224,15 +224,18 @@ a {
   }
 }
 
-.active-link::after {
-  position: absolute;
-  content: '';
-  height: 2px;
-  bottom: 4px;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  width: 80%;
-  background: $color-main;
+@include media(lg) {
+
+  .active-link::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: 4px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 80%;
+    background: $color-main;
+  }
 }
 

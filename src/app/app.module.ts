@@ -21,6 +21,7 @@ import { MainOffersComponent } from './components/main-offers/main-offers.compon
 import { AuthInterceptorInterceptor } from './auth-interceptor/auth-interceptor.interceptor';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { ContactDetailsComponent } from './components/contact/contact-details/contact-details.component';
+import { TitlePageComponent } from './title-page/title-page.component';
 
 
 
@@ -42,6 +43,7 @@ import { ContactDetailsComponent } from './components/contact/contact-details/co
     PagenotfoundComponent,
     MainOffersComponent,
     ContactDetailsComponent,
+    TitlePageComponent,
   ],
   imports: [
     BrowserModule,

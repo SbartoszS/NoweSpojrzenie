@@ -1,11 +1,5 @@
 <section class="offers-description">
-  <header>
-    <div class="leaf-title">
-      <div class="leaf-title__leaf">
-        <h1 class="leaf-title__title">Oferta</h1>
-      </div>
-    </div>
-  </header>
+  <ns-title-page title="Oferta"></ns-title-page>
   <div *ngIf="titlesList; then contentTitle else loadModal"></div>
   <div *ngIf="offersList; then contentAccordion else loadModal"></div>
 

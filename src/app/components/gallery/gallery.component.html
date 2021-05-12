@@ -16,9 +16,8 @@
             <div class="row justify-content-center">
                 <div class="card-columns">
                     <div class="card" *ngFor="let image of images$">
-                        <a [attr.href]="image.guid" data-lightbox="image-1" class="img-fluid" nsLazy>
-                            <img [attr.src]="image.guid" class="card-img-top gallery__img" alt="Zdjęcie z galerii"
-                                nsLazy>
+                        <a [attr.href]="image.guid" data-lightbox="image-1" class="img-fluid">
+                            <img [attr.src]="image.guid" class="card-img-top gallery__img" alt="Zdjęcie z galerii">
                         </a>
                     </div>
                 </div>

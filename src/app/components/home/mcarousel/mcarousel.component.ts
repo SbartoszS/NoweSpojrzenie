@@ -5,11 +5,11 @@ import Glide from '@glidejs/glide'
   templateUrl: './mcarousel.component.html',
   styleUrls: ['./mcarousel.component.scss']
 })
-export class McarouselComponent implements AfterViewInit {
+export class McarouselComponent implements OnInit {
 
   constructor() { }
-  ngAfterViewInit(): void {
 
+  ngOnInit(): void {
     const config = {
       type: 'carousel',
       perView: '3',

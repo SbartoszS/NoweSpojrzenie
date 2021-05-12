@@ -22,6 +22,7 @@ import { AuthInterceptorInterceptor } from './auth-interceptor/auth-interceptor.
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { ContactDetailsComponent } from './components/contact/contact-details/contact-details.component';
 import { TitlePageComponent } from './title-page/title-page.component';
+import { LazyDirective } from '../shared/directive/lazy.directive';
 
 
 
@@ -44,6 +45,7 @@ import { TitlePageComponent } from './title-page/title-page.component';
     MainOffersComponent,
     ContactDetailsComponent,
     TitlePageComponent,
+    LazyDirective,
   ],
   imports: [
     BrowserModule,

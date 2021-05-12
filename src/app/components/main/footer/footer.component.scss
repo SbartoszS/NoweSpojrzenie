@@ -45,7 +45,7 @@ footer {
      }
     
   &__content{
-     font-size: 1rem;
+     font-size: $font-small;
      }
   &__content img{
      vertical-align: middle;
@@ -81,5 +81,14 @@ footer {
 @include media(lg){
   .underline:after {
     width: 100%
+  }
+}
+
+@include media(xl){
+
+  .footer-container{
+    &__content {
+      font-size: $font-normal;
+    }
   }
 }
